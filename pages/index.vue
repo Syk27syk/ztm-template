@@ -230,9 +230,9 @@
           </tr>
             <tr>
             <td> Price </td>
-            <td> $10.00 per unit, promotion 5% until 31st March 2022. <a href="arborvitae.html">Order now!</a> </td>
-            <td> $20.00 per unit, promotion 10% until 31st March 2022. <a href="bloodwood.html">Order now!</a> </td>
-            <td> $30.00 per unit, promotion 15% until 31st March 2022. <a href="coralberry.html">Order now!</a> </td>
+            <td> $10.00 per unit, promotion 5% until 31st March 2022. <a href="arborvitae.html"><em>Order now!</em></a> </td>
+            <td> $20.00 per unit, promotion 10% until 31st March 2022. <a href="bloodwood.html"><em>Order now!</em></a> </td>
+            <td> $30.00 per unit, promotion 15% until 31st March 2022. <a href="coralberry.html"><em>Order now!</em></a> </td>
           </tr>
         </table>
       </p>
@@ -240,7 +240,7 @@
         <p><strong>Sign up to our weekly newsletter!</strong></p>
           <form action=”response_page.html” method=”get”>
             <label for=”name”> Name </label>
-              <input id=”name” name=”name” type=”text” value=Studentztm></input>
+              <input id=”name” name=”name” type=”text” value=e.g.student@ztm></input>
             <label for=”email”> Email </label>
               <input id=”email” email=”email_address” type=”email” required placeholder=me@example.com></input>
             <label for=”phone”> Phone number </label>
@@ -248,10 +248,10 @@
             <button type=”submit”> Sign up </button>
           </form>
       </div>
-      <p id="survey"><a href="survey.html">Click to take a survey</a></p>
+      <p id="survey"><a href="survey.html"><em>Click here to take a survey!</em></a></p>
     </div>
-    <footer id="contact">
-      <p>Contact</p>
+    <footer id="contact"><small>
+      <p><strong>Contact</strong></p>
       <p>Email</p>
       <p>Phone</p>
         <ul>
@@ -261,6 +261,7 @@
         </ul>
       <!--embed map from google maps-->
         <audio controls loop autoplay><source src="https://soundcloud.com/audio-mentor/on-good-terms" type="audio/mpeg"> Sorry, your browser doesn't support this audio. </audio>
+        </small>
     </footer>
   </div>
 </template>
