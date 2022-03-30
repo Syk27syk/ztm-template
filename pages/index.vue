@@ -1,3 +1,57 @@
+<!--BURGER ZTM DAY3
+<template>
+      <div id='header' class="bg-[/hero.bg.jpg]" px-20>
+        <div>
+          <div>='menu' class="grid grid-cols-2" py-5>
+            <div id="'menu-left">
+                <img src="logo.png" class="w-[150px]" alt=""/>
+            </div>
+          </div>
+          <div id="menu-right">
+              <ul class="grid grid-cols-4" text-lg font-oswald text-white uppercase>
+                <li>About Us</li>
+                <li>Our Menu</li>
+                <li>Locations</li>
+                <li>Contacts</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+-->
+<!--
+      <div id='header' class="bg-[/hero.bg.jpg]" px-20>
+        <div>
+          <div>='menu' class="grid grid-cols-2" py-5>
+            <div id="'menu-left">
+                <img src="logo.png" class="w-[150px]" alt=""/>
+            </div>
+          </div>
+          <div id="menu-right">
+              <ul class="grid grid-cols-4" text-lg font-oswald text-white uppercase>
+                <li> <a href=""> About Us </a> </li>
+                <li> <a href=""> Our Menu </a> </li>
+                <li> <a href=""> Locations </a> </li>
+                <li> <a href=""> Contacts </a> </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+-->
+<!--
+      <div id="body" class="bg-[/hero.bg.jpg]" class="grid grid-cols-2">
+        <div>
+          <img src="burger.png" class="w-[1500px] h-[1500px]" alt=""/>
+        </div>
+        <div class="flex h-screen bg-slate-600 h-[100vh] align-middle text-white text-center">
+        <div class="m-auto">
+          <h1 class="text-5xl"> CLASSIC BURGER WITH ONION </h1>
+          <p class="mt-5"> Our signature burger now comes with onion and cheese. You can customize it to your likings. Freshly made to order, all in a Brioche style bun. </p>
+        </div>
+      </div>
+    </div>
+</template>
+-->
+<!--GREENHOMES - COMPANY WEBSITE+ECOMMERCE+CHECKOUT+BACKEND DATA COLLECTION-->
 <template>
   <div class="flex h-screen bg-green-300 h-[100vh] align-middle text-white text-center">
     <div class="m-auto">
@@ -96,3 +150,11 @@
     </footer>
   </div>
 </template>
+<!--EXTRAVAGANT HATS-->
+<!--MAKER CLASS - DROIDS SATELLITES AND WEB APPS-->
+<!--SPEED DATING SITE-->
+<!--ROBOADVISORY-->
+<!--VOICE SEARCH-->
+<!--CLONE OF ELEMENT 14-->
+<!--CLONE OF MASTERCLASS-->
+<!--BOOKING PLATFORM-->
