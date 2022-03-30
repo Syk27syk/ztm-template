@@ -189,6 +189,9 @@
             <input id="password" password="password"></input>
         </form>
     </div>
+    <span>
+      <p> text here </p>
+    </span>
     <div id="welcome_video" class="m-auto align-middle" text-lg px-100>
       <h2><strong>Welcome! 欢迎！Bienvenue! Wilkommen! ¡Bienvenido! Benvenuto! Välkommen! </strong></h2>
       <p class="mt-5 align-middle px-100"><iframe width="560"
@@ -215,9 +218,9 @@
           </tr>
           <tr>
             <td> Image </td>
-            <td><img src="img_1.jpg"></td>
-            <td><img src="img_2.jpg"></td>
-            <td><img src="img_3.jpg"></td>
+            <td><img src="https://tinyurl.com/yc8ktkf9" width="250" height="250"></td>
+            <td><img src="https://tinyurl.com/2p8bkb98" width="250" height="250"></td>
+            <td><img src="https://tinyurl.com/3mrj7pr9" width="250" height="250"></td>
           </tr>
           <tr>
             <td> Features </td>
@@ -227,21 +230,21 @@
           </tr>
             <tr>
             <td> Price </td>
-            <td> $10.00 per unit, promotion 5% until 31st March 2022 <a href="arborvitae.html"> Order now </a> </td>
-            <td> $20.00 per unit, promotion 10% until 31st March 2022 <a href="bloodwood.html"> Order now </a> </td>
-            <td> $30.00 per unit, promotion 15% until 31st March 2022. <a href="coralberry.html"> Order now </a> </td>
+            <td> $10.00 per unit, promotion 5% until 31st March 2022. <a href="arborvitae.html">Order now!</a> </td>
+            <td> $20.00 per unit, promotion 10% until 31st March 2022. <a href="bloodwood.html">Order now!</a> </td>
+            <td> $30.00 per unit, promotion 15% until 31st March 2022. <a href="coralberry.html">Order now!</a> </td>
           </tr>
         </table>
       </p>
       <div id="newsletter_signup" class="">
-        <p> Sign up to our weekly newsletter! </p>
+        <p><strong>Sign up to our weekly newsletter!</strong></p>
           <form action=”response_page.html” method=”get”>
             <label for=”name”> Name </label>
-              <input id=”name” name=”name” type=”text” value=”Studentztm”></input>
+              <input id=”name” name=”name” type=”text” value=Studentztm></input>
             <label for=”email”> Email </label>
               <input id=”email” email=”email_address” type=”email” required placeholder=me@example.com></input>
             <label for=”phone”> Phone number </label>
-              <input id=”phone” phone =”phone_number” type=”tel” required>Phone</input>
+              <input id=”phone” phone =”phone_number” type=”tel” required></input>
             <button type=”submit”> Sign up </button>
           </form>
       </div>
