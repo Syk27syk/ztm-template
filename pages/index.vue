@@ -9,10 +9,10 @@
           </div>
           <div id="menu-right">
             <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
-              <li>About Us</li>
-              <li>Our Menu</li>
-              <li>Locations</li>
-              <li>Contacts</li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Our Menu</a></li>
+              <li><a href="">Locations</a></li>
+              <li><a href="">Contacts</a></li>
             </ul>
           </div>
         </div>
@@ -39,7 +39,7 @@
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
         <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8">
-          Explore Full Menu
+          <a href="">Explore Full Menu</a>
         </button>
       </div>
       <div id="mustardyellow" class="grid grid-cols-3">
@@ -77,7 +77,7 @@
         </p>
         <div class="grid grid-cols-4">
           <div>
-            <img src="" alt="">
+            <img src="crispy-chicken.jpg" alt="">
             <h4> Crispy Chicken </h4>
             <p>
               Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
@@ -87,7 +87,7 @@
             </button>
           </div>
           <div>
-            <img src="" alt="">
+            <img src="ultimate-bacon.jpg" alt="">
             <h4> Ultimate Bacon</h4>
             <p>
               House beef patty, cheddar cheese, bacon, onion, mustard
@@ -97,7 +97,7 @@
             </button>
           </div>
           <div>
-            <img src="" alt="">
+            <img src="baa-baa.jpg" alt="">
             <h4> Baa-Baa Black Sheep</h4>
             <p>
               American cheese, tomato relish, avocado, lettuce, red onion
@@ -106,7 +106,7 @@
               RM 15.75
             </button>
           </div>
-            <img src="" alt="">
+            <img src="double-burger.jpg" alt="">
             <h4> Double Burger </h4>
             <p>
               2 beef patties, cheddar cheese, mustard, pickles, tomatoes
@@ -118,16 +118,16 @@
         </div>
       </div>
       <div id="unevencolumns" class="grid grid-cols-2">
-        <div>
-          <h4 class="uppercase">
+        <div class="bg-[url('/fries-bg-1.jpg')]>
+          <h4 uppercase">
             Get Your Free Cheese Fries
           </h4>
           <button>
             Claim Now
           </button>
         </div>
-        <div>
-          <h4 class="uppercase">
+        <div class="bg-[url('/burger-bg-1.jpg')]>
+          <h4 jpguppercase">
             Cripsy Chicken Burger is Back!
           </h4>
           <button class="uppercase">
@@ -137,25 +137,16 @@
       </div>
       <div id="threecolumns" class="grid grid-cols-3">
         <div>
-          <img src="" alt="" />
-          <button class="text-black uppercase">
-            Order Now
-          </button>
+          <a href=""><img src="offer-1.jpg" alt="" /></a>
         </div>
         <div>
-          <img src="" alt="" />
-          <button class="text-white uppercase">
-            Order Now
-          </button>
+          <a href=""><img src="offer-2.jpg" alt="" /></a>
         </div>
         <div>
-          <img src="" alt="" />
-          <button class="text-white uppercase">
-            Order Now
-          </button>
+          <a href=""><img src="offer-3.jpg" alt="" /></a>
         </div>
         <div id="photos" class="grid grid-cols-2">
-          <img src="" alt="" />
+          <img src="about.png" alt="" />
           <div>
             <h3>
               Nothing Brings People Together Like a Good Burger
@@ -181,34 +172,34 @@
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
           <div grid="grid-cols-2">
-            <button>
+            <button class="bg-[url('/appstore.png')]">
               Apple App Store
             </button>
-            <button>
+            <button class="bg-[url('/googleplay.png')]">
               Google Play
             </button>
           </div>
         </div>
-        <img src="" alt="">
+        <img src="eshop.png" alt="">
       </div>
       <div id="logos" class="grid grid-cols-6">
         <div>
-          <img src="" alt="" />
+          <img src="brand-1.png" alt="" />
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="brand-2.png" alt="" />
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="brand-3.png" alt="" />
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="brand-4.png" alt="" />
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="brand-5.png" alt="" />
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="brand-6.png" alt="" />
         </div>
       </div>
       <div id="wideselections">
@@ -219,19 +210,19 @@
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
         <div class="grid grid-cols-4">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src="img-01.jpg" alt="" />
+          <img src="img-02.jpg" alt="" />
+          <img src="img-03.jpg" alt="" />
+          <img src="img-04.jpg" alt="" />
         </div>
         <div class="grid grid-cols-4">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src="img-05.jpg" alt="" />
+          <img src="img-06.jpg" alt="" />
+          <img src="img-07.jpg" alt="" />
+          <img src="img-08.jpg" alt="" />
         </div>
       </div>
-      <div class="text-center">
+      <div class="bg-[url('/banner.jpg')] text-center">
         <h5 class="uppercase">
           We Guarantee
         </h5>
@@ -280,15 +271,15 @@
             For the latest updates!
           </p>
           <div class="grid grid-cols-3">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <a href=""><img src="facebook.png" alt="" /></a>
+            <a href=""><img src="instagram.png" alt="" /></a>
+            <a href=""><img src="youtube.png" alt="" /></a>
           </div>
         </div>
       </div>
       <div id="footer">
         <p>
-          @ 2022 Testo Burgers. All Rights Reserved About Us Gift Cards Terms Of Use Privacy Policy
+          @ 2022 Testo Burgers. All Rights Reserved | <a href="">About Us</a> | <a href="">Gift Cards</a> | <a href="">Terms Of Use</a> | <a href="">Privacy Policy</a>
         </p>
       </div>
     </div>
