@@ -1,7 +1,7 @@
 <!--BURGER-->
 <template>
   <div>
-    <div id="header" class="bg-black px-20">
+    <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
       <div id="menu" class="grid grid-cols-2 py-5">
         <div id="menu-left">
           <img src="logo.png" class="w-[150px]" alt="" />
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div id="section-1" class="text-center bg-[url('/three-burgers.jpg')] pb-60 bg-cover">
+    <div id="section-1" class="text-center bg-[url('/about.jpg')] pb-60 bg-cover">
       <h1 class="text-6xl uppercase font-oswald pt-20 text-center">
         The burger tastes better when you eat it with family.
       </h1>
