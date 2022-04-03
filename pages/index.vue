@@ -42,7 +42,7 @@
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 px-30 py10 text-center justify-evenly">
+      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 mx-50 text-center">
         <div>
           <div class="p-5">
             <svg
@@ -106,76 +106,86 @@
           </p>
         </div>
       </div>
-      <div>
-        <h2 id="featuredburgers" class="uppercase text-5xl  font-roboto text-red-500 text-center">
+      <div class="text-center">
+        <h2 id="featuredburgers" class="uppercase text-5xl  font-roboto text-red-500 text-center pt-16 pb-3">
           Our Crazy Burgers
         </h2>
-        <p>
+        <p class="text-gray-800 text-opacity-80 font-light text-center p-5 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
-        <div class="grid grid-cols-4">
-          <div>
+        <div class="grid grid-cols-4 gap-x-3 text-left">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
             <img src="crispy-chicken.jpg" alt="">
-            <h4> Crispy Chicken </h4>
-            <p>
+            <h4 class="px-2 pt-2 uppercase text-gray-500">
+              <strong>Crispy Chicken</strong>
+              </h4>
+            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
             </p>
-            <button>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3">
               RM 11.99
             </button>
           </div>
-          <div>
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
             <img src="ultimate-bacon.jpg" alt="">
-            <h4> Ultimate Bacon</h4>
-            <p>
+            <h4 class="px-2 pt-2 uppercase text-gray-500">
+              <strong>Ultimate Bacon</strong>
+            </h4>
+            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               House beef patty, cheddar cheese, bacon, onion, mustard
             </p>
-            <button>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3">
               RM 14.99
             </button>
           </div>
-          <div>
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
             <img src="baa-baa.jpg" alt="">
-            <h4> Baa-Baa Black Sheep</h4>
-            <p>
+            <h4 class="px-2 pt-2 uppercase text-gray-500">
+              <strong>Baa-Baa Black Sheep</strong>
+            </h4>
+            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               American cheese, tomato relish, avocado, lettuce, red onion
             </p>
-            <button>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3">
               RM 15.75
             </button>
           </div>
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
             <img src="double-burger.jpg" alt="">
-            <h4> Double Burger </h4>
-            <p>
+            <h4 class="px-2 pt-2 uppercase text-gray-500">
+              <strong>Double Burger</strong>
+            </h4>
+            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               2 beef patties, cheddar cheese, mustard, pickles, tomatoes
             </p>
-            <button>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3">
               RM 15.35
             </button>
           </div>
+          </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-5">
+      <div id="promotions-1" class="grid grid-cols-5 gap-x-3">
         <div
-          class="bg-[url('/fries-bg-1.jpg')]>
-          <h4 uppercase">
-            Get Your Free Cheese Fries
+          class="bg-[url('/fries-bg-1.jpg')] row-span-2">
+          <h4 class="text-yellow-800 uppercase">
+            <strong>Get Your Free Cheese Fries</strong>
           </h4>
-          <button>
+          <button class="bg-red-500 py-3 px-8 text-white uppercase">
             Claim Now
           </button>
         </div>
         <div
-          class="bg-[url('/burger-bg-1.jpg')]>
-          <h4 jpguppercase">
-            Cripsy Chicken Burger is Back!
+          class="bg-[url('/burger-bg-1.jpg')] row-span-3">
+          <h4 class="text-yellow-800 uppercase">
+            <strong>Cripsy Chicken Burger is Back!</strong>
           </h4>
-          <button class="uppercase">
+          <button class="bg-red-500 py-3 px-8 text-white uppercase">
             Claim Now
           </button>
         </div>
       </div>
-      <div id="promotions-2" class="grid grid-cols-3">
+      <div id="promotions-2" class="grid grid-cols-3 gap-x-3">
         <div>
           <a href=""><img src="offer-1.jpg" alt="" /></a>
         </div>
