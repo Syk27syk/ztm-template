@@ -16,7 +16,7 @@
             </ul>
           </div>
         </div>
-        <div class="grid grid-cols-2 pb-20 pt-10">
+        <div class="grid grid-cols-2 pb-20 pt-10 animate-pulse">
           <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
           <div>
             <h1 class="text-8xl text-white text-center font-lilita uppercase">
@@ -167,20 +167,20 @@
       </div>
       <div id="promotions-1" class="grid grid-cols-5 gap-x-3 my-10">
         <div
-          class="bg-[url('/fries-bg-1.jpg')] h-100 first-line:col-span-2">
-          <h4 class="text-yellow-800 uppercase">
+          class="bg-[url('/fries-bg-1.jpg')] bg-cover col-span-2">
+          <h4 class="pt-10 text-2xl text-yellow-800 text-center uppercase">
             <strong>Get Your Free Cheese Fries</strong>
           </h4>
-          <button class="bg-red-500 py-3 px-8 text-white uppercase">
+           <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5">
             Claim Now
           </button>
         </div>
         <div
-          class="bg-[url('/burger-bg-1.jpg')] h-100 col-span-3">
-          <h4 class="text-yellow-800 uppercase">
-            <strong>Cripsy Chicken Burger is Back!</strong>
+          class="bg-[url('/burger-bg-1.jpg')] bg-cover col-span-3">
+          <h4 class="pt-10 text-2xl text-yellow-800 text-right uppercase">
+            <strong>Cripsy Chicken Burger is Back</strong>
           </h4>
-          <button class="bg-red-500 py-3 px-8 text-white uppercase">
+          <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5">
             Claim Now
           </button>
         </div>
@@ -196,39 +196,39 @@
           <a href=""><img src="offer-3.jpg" alt="" /></a>
         </div>
       </div>
-      <div id="bringingpeopletogether" class="grid grid-cols-2">
-        <img src="about.png" alt="" />
-        <div>
-          <h3>
+      <div id="bringingpeopletogether" class="grid grid-cols-2 gap-x-20 p-20 overflow-y-scroll">
+        <img src="about.png" alt="" class="bg-cover"/>
+        <div class="m-2">
+          <h3 class="text-3xl text-gray-900 text-semibold uppercase py-10">
              Nothing Brings People Together Like a Good Burger
           </h3>
-          <p>
+          <p class="text-sm text-light text-gray-700 pb-5">
             That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community. We do our best to make sure that everyone's happy and having a good time.
           </p>
-          <p>
+          <p class="text-sm text-light text-gray-700 pt-5">
             Burgers are what brought us together and what keeps us together. It's something that you can't put a price tag on. Most importantly, we are interested in people. It's not just about the food.
           </p>
         </div>
       </div>
       <div id="downloadapp" class="grid grid-cols-2 bg-yellow-400">
         <div class="text-red-900">
-          <h4 class="uppercase text-lg">
+          <h4 class="uppercase text-2xl text-bold pl-20 pt-20">
             Download mobile app and
           </h4>
-          <h3 class="uppercase text-xl">
+          <h3 class="uppercase text-4xl text-bold pl-20">
             Save up to 20%
           </h3>
-          <p class="text-sm">
+          <p class="text-sm text-light leading-relaxed py-5 pl-20">
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
-          <div grid="grid-cols-2">
-            <button class="bg-[url('/appstore.png')] h-5 w-30 text-transparent"> Apple App Store </button>
-            <button class="bg-[url('/googleplay.png')] h-5 w-30 text-transparent"> Google Play </button>
+          <div class="flex flex-row space-x-3">
+            <button class="bg-[url('/appstore.png')] bg-cover w-25 ml-20 text-transparent"> Apple App Store </button>
+            <button class="bg-[url('/googleplay.png')] bg-cover w-25 text-transparent"> Google Play </button>
           </div>
         </div>
         <img src="eshop.png" alt="">
       </div>
-      <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200">
+      <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
         <div class="h-28 w-28 p-2">
           <img src="brand-1.png" alt="" />
         </div>
@@ -248,11 +248,16 @@
           <img src="brand-6.png" alt="" />
         </div>
       </div>
+<!--
+      <div class="bg-[url('/i-like-food.svg')]">
+        <p class="text-transparent p-20"> burger </p>
+      </div>
+-->
       <div id="menufeature">
-        <h3 class="uppercase text-5xl font-roboto text-red-500 font-semibold text-center pt-20">
+        <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
           Wide Selections
         </h3>
-        <p class="text-gray-800 text-opacity-80 font-light text-center pt-3 pb-5">
+        <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-5">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
         <div class="grid grid-cols-4 gap-2 m-5">
@@ -266,17 +271,17 @@
           <img src="img-08.jpg" alt="" />
         </div>
       </div>
-      <div id="30mindelivery" class="bg-[url('/banner.jpg')] h-250 text-gray-800 text-center px-300">
-        <h5 class="uppercase">
+      <div id="30mindelivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
+        <h5 class="text-2xl tracking-tight text-bold uppercase pt-10">
           We Guarantee
         </h5>
-        <h3 class="text-xl text-bold uppercase">
+        <h3 class="text-4xl tracking-tight text-bold uppercase p-3">
           30 Minutes Delivery
         </h3>
-        <p class="text-light px-300">
+        <p class="text-sm text-light text-gray-600 px-36">
           Free delivery for all orders above RM30. We are committed to deliver the freshest and warmest food to all our customers. If your order is not delivered within 30 minutes, your next meal is on us!
         </p>
-        <button class="bg-red-500 text-white px-8 py-2 m-5">
+        <button class="bg-red-500 text-white px-8 py-2 mt-3 mb-12">
           Call: 03-2282 6400
         </button>
       </div>
