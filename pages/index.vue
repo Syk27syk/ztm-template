@@ -8,7 +8,7 @@
             <img src="logo.png" class="w-[150px]" alt="" />
           </div>
           <div id="menu-right">
-            <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
+            <ul class="flex flex-row flex-wrap space-x-10 text-lg font-oswald text-white uppercase pt-5 flex-auto min-w-lg">
               <li><a href="">About Us</a></li>
               <li><a href="">Our Menu</a></li>
               <li><a href="">Locations</a></li>
@@ -16,10 +16,10 @@
             </ul>
           </div>
         </div>
-        <div class="grid grid-cols-2 pb-20 pt-10">
-          <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
+        <div class="flex flex-row pb-20 pt-10">
+          <img src="hero-burger.png" class="pr-8 mt-10 max-h-96 min-w-lg md:animate-spin lg:animate-none" alt="" />
           <div>
-            <h1 class="text-8xl text-white text-center font-lilita uppercase">
+            <h1 class="text-8xl text-white text-center min-w-lg font-lilita uppercase">
               Classic Burger
             </h1>
             <h2 class="text-6xl text-white text-center font-lilita uppercase mt-5 mb-5">
@@ -38,7 +38,7 @@
         <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28 text-center">
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
-        <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8">
+        <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8 animate-pulse">
           <a href="">Explore Full Menu</a>
         </button>
       </div>
@@ -197,7 +197,7 @@
           <a href=""><img src="offer-3.jpg" alt="" /></a>
         </div>
       </div>
-      <div id="bringingpeopletogether" class="grid grid-cols-2 gap-x-20 p-20 overflow-y-scroll">
+      <div id="bringingpeopletogether" class="flex flex-row gap-x-20 p-20 overflow-y-scroll">
         <img src="about.png" alt="" class="bg-cover max-h-96"/>
         <div class="m-2">
           <h3 class="text-3xl text-gray-900 text-semibold uppercase pt-5 pb-10">
