@@ -42,12 +42,12 @@
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 mx-50 text-center">
+      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 mx-50 text-center place-items-center">
         <div class="relative">
           <div class="p-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-16 w-16"
+              class="h-16 w-16 justify-self-center"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -68,7 +68,7 @@
         <div class="p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16"
+            class="h-16 w-16 justify-self-center"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -88,7 +88,7 @@
         <div class="p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16"
+            class="h-16 w-16 justify-self-center"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -168,17 +168,17 @@
       <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10">
         <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-2 grid grid-cols-2 relative">
           <p class="invisible"> text </p>
-          <div>
+          <div class="absolute bottom-2 right-2">
             <h4 class="pt-10 pr-16 text-2xl text-yellow-700 text-center uppercase">
-              <strong>Get Your Free Cheese Fries</strong>
+              <strong>Get Your Free<br>Cheese Fries</strong>
             </h4>
-            <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2">
+            <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5">
               Claim Now
             </button>
           </div>
         </div>
         <div class="bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-3 relative">
-          <h4 class="pt-10 pr-8 max-w-2xl text-2xl text-yellow-700 text-right uppercase">
+          <h4 class="text-right pt-10 pr-8 text-2xl text-yellow-700 uppercase">
             <strong>Crispy Chicken<br>Burger is Back!</strong>
           </h4>
           <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2 right-2">
