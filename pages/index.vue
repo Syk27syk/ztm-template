@@ -5,7 +5,7 @@
       <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
         <div id="menu" class="grid grid-cols-2 py-5">
           <div id="menu-left">
-            <img src="logo.png" class="w-[150px] animate-bounce" alt="" />
+            <img src="logo.png" class="w-[150px]" alt="" />
           </div>
           <div id="menu-right">
             <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
@@ -17,8 +17,8 @@
           </div>
         </div>
         <div class="grid grid-cols-2 pb-20 pt-10">
-          <img src="hero-burger.png" class="pr-8 mt-10 animate-wiggle" alt="" />
-          <div class="md:animate-spin lg:animate-none">
+          <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
+          <div>
             <h1 class="text-8xl text-white text-center font-lilita uppercase">
               Classic Burger
             </h1>
@@ -38,74 +38,76 @@
         <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28 text-center">
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
-        <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8 animate-pulse">
+        <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8">
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3">
+      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 px-30 py10 text-center justify-evenly">
         <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-          </svg>
-          <h5 class="uppercase">
-            Original Recipes
+          <div class="p-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
+          </div>
+          <h5 class="uppercase p-5">
+            <strong>Original Recipes</strong>
           </h5>
-          <p>
+          <p class="text-black-400 text-opacity-80 font-light pb-10">
             We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.
           </p>
         </div>
-        <div>
+        <div class="p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            class="h-16 w-16"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="2">
+            stroke-width="1">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
             </svg>
-          <h5 class="uppercase">
-            Quality Foods
+          <h5 class="uppercase p-5">
+            <strong>Quality Foods</strong>
           </h5>
-          <p>
+          <p class="text-black-400 text-opacity-80 font-light pb-10">
             We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.
           </p>
         </div>
-        <div>
+        <div class="p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            class="h-16 w-16"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="2">
+            stroke-width="1">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
-          <h5 class="uppercase">
-            Fastest Delivery
+          <h5 class="uppercase p-5">
+            <strong>Fastest Delivery</strong>
           </h5>
-          <p>
+          <p class="text-black-400 text-opacity-80 font-light pb-10">
             Burgers are best served while it's hot. We deliver to your door with our speedy delivery partners from the nearest outlet.
           </p>
         </div>
       </div>
       <div>
-        <h2 id="featuredburgers" class="uppercase">
+        <h2 id="featuredburgers" class="uppercase text-5xl  font-roboto text-red-500 text-center">
           Our Crazy Burgers
         </h2>
         <p>
