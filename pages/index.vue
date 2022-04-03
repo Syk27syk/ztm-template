@@ -42,7 +42,7 @@
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="sellingpoints" class="grid grid-cols-3">
+      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-          </svg>"
+          </svg>
           <h5 class="uppercase">
             Original Recipes
           </h5>
@@ -105,7 +105,7 @@
         </div>
       </div>
       <div>
-        <h2 id="crazyburgers" class="uppercase">
+        <h2 id="featuredburgers" class="uppercase">
           Our Crazy Burgers
         </h2>
         <p>
@@ -153,8 +153,9 @@
           </div>
         </div>
       </div>
-      <div id="unevencolumns" class="grid grid-cols-2">
-        <div class="bg-[url('/fries-bg-1.jpg')]>
+      <div id="promotions-1" class="grid grid-cols-5">
+        <div
+          class="bg-[url('/fries-bg-1.jpg')]>
           <h4 uppercase">
             Get Your Free Cheese Fries
           </h4>
@@ -162,7 +163,8 @@
             Claim Now
           </button>
         </div>
-        <div class="bg-[url('/burger-bg-1.jpg')]>
+        <div
+          class="bg-[url('/burger-bg-1.jpg')]>
           <h4 jpguppercase">
             Cripsy Chicken Burger is Back!
           </h4>
@@ -171,7 +173,7 @@
           </button>
         </div>
       </div>
-      <div id="threecolumns" class="grid grid-cols-3">
+      <div id="promotions-2" class="grid grid-cols-3">
         <div>
           <a href=""><img src="offer-1.jpg" alt="" /></a>
         </div>
@@ -180,20 +182,19 @@
         </div>
         <div>
           <a href=""><img src="offer-3.jpg" alt="" /></a>
-        </div>
-        <div id="photos" class="grid grid-cols-2">
-          <img src="about.png" alt="" />
-          <div>
-            <h3>
-              Nothing Brings People Together Like a Good Burger
-            </h3>
-            <p>
-              That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community. We do our best to make sure that everyone's happy and having a good time.
-            </p>
-            <p>
-              Burgers are what brought us together and what keeps us together. It's something that you can't put a price tag on. Most importantly, we are interested in people. It's not just about the food.
-            </p>
-          </div>
+      </div>
+      <div id="bringingpeopletogether" class="grid grid-cols-2">
+        <img src="about.png" alt="" />
+        <div>
+          <h3>
+             Nothing Brings People Together Like a Good Burger
+          </h3>
+          <p>
+            That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community. We do our best to make sure that everyone's happy and having a good time.
+          </p>
+          <p>
+            Burgers are what brought us together and what keeps us together. It's something that you can't put a price tag on. Most importantly, we are interested in people. It's not just about the food.
+          </p>
         </div>
       </div>
       <div id="downloadapp" class="grid grid-cols-2">
@@ -238,7 +239,7 @@
           <img src="brand-6.png" alt="" />
         </div>
       </div>
-      <div id="wideselections">
+      <div id="menufeature">
         <h3 class="uppercase">
           Wide Selections
         </h3>
@@ -258,7 +259,7 @@
           <img src="img-08.jpg" alt="" />
         </div>
       </div>
-      <div class="bg-[url('/banner.jpg')] text-center">
+      <div id="30mindelivery" class="bg-[url('/banner.jpg')] text-center">
         <h5 class="uppercase">
           We Guarantee
         </h5>
@@ -272,7 +273,7 @@
           Call: 03-2282 6400
         </button>
       </div>
-      <div class="grid grid-cols-4">
+      <div id="information" class="grid grid-cols-4">
         <div>
           <h5 class="uppercase">
             Location
