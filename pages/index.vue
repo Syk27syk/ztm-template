@@ -165,14 +165,14 @@
           </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10">
+      <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0">
         <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-2 grid grid-cols-2 relative">
           <p class="invisible"> text </p>
           <div class="absolute bottom-2 right-2">
             <h4 class="pt-10 pr-16 text-2xl text-yellow-700 text-center uppercase">
               <strong>Get Your Free<br>Cheese Fries</strong>
             </h4>
-            <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5">
+            <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 animate-pulse">
               Claim Now
             </button>
           </div>
@@ -181,7 +181,7 @@
           <h4 class="text-right pt-10 pr-8 text-2xl text-yellow-700 uppercase">
             <strong>Crispy Chicken<br>Burger is Back!</strong>
           </h4>
-          <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2 right-2">
+          <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2 right-2 animate-pulse">
             Claim Now
           </button>
         </div>
@@ -282,7 +282,7 @@
         <p class="text-sm text-light text-gray-600 px-36">
           Free delivery for all orders above RM30. We are committed to deliver the freshest and warmest food to all our customers. If your order is not delivered within 30 minutes, your next meal is on us!
         </p>
-        <button class="bg-red-500 text-white px-8 py-2 mt-3 mb-12">
+        <button class="bg-red-500 text-white px-8 py-2 mt-3 mb-12 animate-pulse">
           Call: 03-2282 6400
         </button>
       </div>
