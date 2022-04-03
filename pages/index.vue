@@ -9,10 +9,18 @@
           </div>
           <div id="menu-right">
             <ul class="flex flex-row flex-wrap space-x-10 text-lg font-oswald text-white uppercase pt-5 flex-auto min-w-lg">
-              <li><a href="">About Us</a></li>
-              <li><a href="">Our Menu</a></li>
-              <li><a href="">Locations</a></li>
-              <li><a href="">Contacts</a></li>
+              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
+                <a href="">About Us</a>
+              </li>
+              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
+                <a href="">Our Menu</a>
+              </li>
+              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
+                <a href="">Locations</a>
+              </li>
+              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
+                <a href="">Contacts</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -106,7 +114,7 @@
           </p>
         </div>
       </div>
-      <div id="featuredburgers" class="text-center">
+      <div id="featuredburgers" class="text-cente bg-gray-100">
         <h2 class="uppercase text-5xl font-roboto text-red-500 font-semibold text-center pt-16 pb-3">
           Our Crazy Burgers
         </h2>
@@ -114,10 +122,10 @@
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
         <div class="grid grid-cols-4 gap-x-3 text-left">
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="crispy-chicken.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <strong>Crispy Chicken</strong>
+              <a href=""><strong>Crispy Chicken</strong></a>
               </h4>
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
               Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
@@ -126,10 +134,10 @@
               RM 11.99
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="ultimate-bacon.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <strong>Ultimate Bacon</strong>
+              <a href=""><strong>Ultimate Bacon</strong></a>
             </h4>
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               House beef patty, cheddar cheese, bacon, onion, mustard
@@ -138,10 +146,10 @@
               RM 14.99
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="baa-baa.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <strong>Baa-Baa Black Sheep</strong>
+              <a href=""><strong>Baa-Baa Black Sheep</strong></a>
             </h4>
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               American cheese, tomato relish, avocado, lettuce, red onion
@@ -150,10 +158,10 @@
               RM 15.75
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="double-burger.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <strong>Double Burger</strong>
+              <a href=""><strong>Double Burger</strong></a>
             </h4>
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               2 beef patties, cheddar cheese, mustard, pickles, tomatoes
@@ -165,7 +173,7 @@
           </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0">
+      <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
         <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-2 grid grid-cols-2 relative">
           <p class="invisible"> text </p>
           <div class="absolute bottom-2 right-2">
@@ -187,13 +195,13 @@
         </div>
       </div>
       <div id="promotions-2" class="grid grid-cols-3 gap-x-3">
-        <div>
+        <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
           <a href=""><img src="offer-1.jpg" alt="" /></a>
         </div>
-        <div>
+        <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
           <a href=""><img src="offer-2.jpg" alt="" /></a>
         </div>
-        <div>
+        <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
           <a href=""><img src="offer-3.jpg" alt="" /></a>
         </div>
       </div>
@@ -254,22 +262,22 @@
         <p class="text-transparent p-20"> burger </p>
       </div>
 -->
-      <div id="menufeature" class="pb-5">
+      <div id="menufeature" class="pb-5 bg-gray-100">
         <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
-          Wide Selections
+          <a href="">Wide Selections</a>
         </h3>
         <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
         <div class="grid grid-cols-4 gap-2 m-5">
-          <img src="img-01.jpg" alt="" />
-          <img src="img-02.jpg" alt="" />
-          <img src="img-03.jpg" alt="" />
-          <img src="img-04.jpg" alt="" />
-          <img src="img-05.jpg" alt="" />
-          <img src="img-06.jpg" alt="" />
-          <img src="img-07.jpg" alt="" />
-          <img src="img-08.jpg" alt="" />
+          <a href=""><img src="img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+          <a href=""><img src="img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
         </div>
       </div>
       <div id="30mindelivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
@@ -286,7 +294,7 @@
           Call: 03-2282 6400
         </button>
       </div>
-      <div id="information" class="grid grid-cols-4 gap-x-14 text-center text-gray-900 mx-28 py-5">
+      <div id="information" class="grid grid-cols-4 gap-x-14 text-center text-gray-900 mx-28 py-5 bg-gray-100 bg-cover">
         <div>
           <h5 class="text-bold uppercase p-2">
             <strong>Location</strong>
@@ -327,7 +335,7 @@
           </div>
         </div>
       </div>
-      <div id="footer" class="text-center text-gray-600 text-light text-sm p-10 border-t-2 border-opacity-10 border-color-gray-200">
+      <div id="footer" class="text-center text-gray-600 text-light text-sm p-10 border-t-2 border-opacity-10 border-color-gray-200 bg-gray-100">
         <p>
           @ 2022 Testo Burgers. All Rights Reserved | <a href="">About Us</a> | <a href="">Gift Cards</a> | <a href="">Terms Of Use</a> | <a href="">Privacy Policy</a>
         </p>
