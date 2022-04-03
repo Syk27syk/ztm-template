@@ -16,7 +16,7 @@
             </ul>
           </div>
         </div>
-        <div class="grid grid-cols-2 pb-20 pt-10 animate-pulse">
+        <div class="grid grid-cols-2 pb-20 pt-10">
           <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
           <div>
             <h1 class="text-8xl text-white text-center font-lilita uppercase">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div id="section-1" class="text-center bg-[url('/about.jpg')] pb-60 bg-cover">
+      <div id="section-1" class="text-center bg-[url('/about.jpg')] bg-center pb-60 bg-cover min-w-full min-h-96">
         <h1 class="text-6xl uppercase font-oswald pt-20 text-center">
           The burger tastes better when you eat it with family.
         </h1>
@@ -43,7 +43,7 @@
         </button>
       </div>
       <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 mx-50 text-center">
-        <div>
+        <div class="relative">
           <div class="p-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,11 +93,11 @@
             viewBox="0 0 24 24"
             stroke="currentColor"
             stroke-width="1">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
           <h5 class="uppercase p-5">
             <strong>Fastest Delivery</strong>
           </h5>
@@ -106,27 +106,27 @@
           </p>
         </div>
       </div>
-      <div class="text-center">
-        <h2 id="featuredburgers" class="uppercase text-5xl font-roboto text-red-500 font-semibold text-center pt-16 pb-3">
+      <div id="featuredburgers" class="text-center">
+        <h2 class="uppercase text-5xl font-roboto text-red-500 font-semibold text-center pt-16 pb-3">
           Our Crazy Burgers
         </h2>
         <p class="text-gray-800 text-opacity-80 font-light text-center p-5 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
         <div class="grid grid-cols-4 gap-x-3 text-left">
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
             <img src="crispy-chicken.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <strong>Crispy Chicken</strong>
               </h4>
-            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
+            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
               Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
             </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom" position:absolute>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0" position:absolute>
               RM 11.99
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
             <img src="ultimate-bacon.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <strong>Ultimate Bacon</strong>
@@ -134,11 +134,11 @@
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               House beef patty, cheddar cheese, bacon, onion, mustard
             </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom" position:absolute>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0" position:absolute>
               RM 14.99
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
             <img src="baa-baa.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <strong>Baa-Baa Black Sheep</strong>
@@ -146,11 +146,11 @@
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               American cheese, tomato relish, avocado, lettuce, red onion
             </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom">
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
               RM 15.75
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm">
+          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative">
             <img src="double-burger.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <strong>Double Burger</strong>
@@ -158,29 +158,30 @@
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
               2 beef patties, cheddar cheese, mustard, pickles, tomatoes
             </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom">
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
               RM 15.35
             </button>
           </div>
           </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-5 gap-x-3 my-10">
-        <div
-          class="bg-[url('/fries-bg-1.jpg')] bg-cover col-span-2">
-          <h4 class="pt-10 text-2xl text-yellow-800 text-center uppercase">
-            <strong>Get Your Free Cheese Fries</strong>
-          </h4>
-           <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5">
-            Claim Now
-          </button>
+      <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10">
+        <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-2 grid grid-cols-2 relative">
+          <p class="invisible"> text </p>
+          <div>
+            <h4 class="pt-10 pr-16 text-2xl text-yellow-700 text-center uppercase">
+              <strong>Get Your Free Cheese Fries</strong>
+            </h4>
+            <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2">
+              Claim Now
+            </button>
+          </div>
         </div>
-        <div
-          class="bg-[url('/burger-bg-1.jpg')] bg-cover col-span-3">
-          <h4 class="pt-10 text-2xl text-yellow-800 text-right uppercase">
-            <strong>Cripsy Chicken Burger is Back</strong>
+        <div class="bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-3 relative">
+          <h4 class="pt-10 pr-8 max-w-2xl text-2xl text-yellow-700 text-right uppercase">
+            <strong>Crispy Chicken<br>Burger is Back!</strong>
           </h4>
-          <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5">
+          <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2 right-2">
             Claim Now
           </button>
         </div>
@@ -197,36 +198,36 @@
         </div>
       </div>
       <div id="bringingpeopletogether" class="grid grid-cols-2 gap-x-20 p-20 overflow-y-scroll">
-        <img src="about.png" alt="" class="bg-cover"/>
+        <img src="about.png" alt="" class="bg-cover max-h-96"/>
         <div class="m-2">
-          <h3 class="text-3xl text-gray-900 text-semibold uppercase py-10">
+          <h3 class="text-3xl text-gray-900 text-semibold uppercase pt-5 pb-10">
              Nothing Brings People Together Like a Good Burger
           </h3>
           <p class="text-sm text-light text-gray-700 pb-5">
             That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community. We do our best to make sure that everyone's happy and having a good time.
           </p>
-          <p class="text-sm text-light text-gray-700 pt-5">
+          <p class="text-sm text-light text-gray-700 pt-5 pb-10">
             Burgers are what brought us together and what keeps us together. It's something that you can't put a price tag on. Most importantly, we are interested in people. It's not just about the food.
           </p>
         </div>
       </div>
-      <div id="downloadapp" class="grid grid-cols-2 bg-yellow-400">
+      <div id="downloadapp" class="grid grid-cols-2 bg-yellow-400 bg-cover m-30 relative">
         <div class="text-red-900">
-          <h4 class="uppercase text-2xl text-bold pl-20 pt-20">
+          <h4 class="uppercase text-2xl text-bold tracking-tight pl-20 pt-20">
             Download mobile app and
           </h4>
-          <h3 class="uppercase text-4xl text-bold pl-20">
+          <h3 class="uppercase text-4xl text-bold tracking-tight pl-20">
             Save up to 20%
           </h3>
-          <p class="text-sm text-light leading-relaxed py-5 pl-20">
+          <p class="text-sm text-light leading-relaxed tracking-tight py-5 pl-20">
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
-          <div class="flex flex-row space-x-3">
-            <button class="bg-[url('/appstore.png')] bg-cover w-25 ml-20 text-transparent"> Apple App Store </button>
-            <button class="bg-[url('/googleplay.png')] bg-cover w-25 text-transparent"> Google Play </button>
+          <div class="flex flex-row space-x-3 pb-36">
+            <button class="bg-[url('/appstore.png')] bg-cover h-9 ml-20 text-transparent"> Apple App Store </button>
+            <button class="bg-[url('/googleplay.png')] bg-cover h-9 text-transparent"> Google Play </button>
           </div>
         </div>
-        <img src="eshop.png" alt="">
+        <img src="eshop.png" alt="" class="absolute -top-8 right-6 max-w-lg">
       </div>
       <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
         <div class="h-28 w-28 p-2">
@@ -253,11 +254,11 @@
         <p class="text-transparent p-20"> burger </p>
       </div>
 -->
-      <div id="menufeature">
+      <div id="menufeature" class="pb-5">
         <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
           Wide Selections
         </h3>
-        <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-5">
+        <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
         <div class="grid grid-cols-4 gap-2 m-5">
@@ -285,20 +286,20 @@
           Call: 03-2282 6400
         </button>
       </div>
-      <div id="information" class="grid grid-cols-4 text-center text-gray-900 px-30 py-5 m-5">
+      <div id="information" class="grid grid-cols-4 gap-x-14 text-center text-gray-900 mx-28 py-5">
         <div>
           <h5 class="text-bold uppercase p-2">
             <strong>Location</strong>
           </h5>
-          <p class="text-gray-800 text-light">
-            No. 1, Persiaran Bandar Utama, 47800 Petaling Jaya, Selangor, Malaysia.
+          <p class="text-gray-800 text-light text-sm">
+            No. 1, Persiaran Bandar Utama,<br>47800 Petaling Jaya,<br>Selangor, Malaysia.
           </p>
         </div>
         <div>
           <h5 class="text-bold uppercase p-2">
             <strong>Opening Hours</strong>
           </h5>
-          <ul class="text-gray-800 text-light">
+          <ul class="text-gray-800 text-light text-sm">
             <li> Mon-Fri: 9:00AM - 10:00PM </li>
             <li> Saturday: 10:00AM - 8:30PM </li>
             <li> Sunday: 12:00PM - 5:00PM </li>
@@ -308,15 +309,15 @@
           <h5 class="text-semibold uppercase p-2">
             <strong>Order Now</strong>
           </h5>
-          <p class="text-gray-800 text-light">
-            Call our hotline at 03-2282 6400
+          <p class="text-gray-800 text-light text-sm">
+            Call our hotline at<br>03-2282 6400
           </p>
         </div>
         <div>
           <h5 class="text-semibold uppercase p-2">
             <strong>Follow Us</strong>
           </h5>
-          <p class="text-gray-800 text-light">
+          <p class="text-gray-800 text-light text-sm">
             For the latest updates!
           </p>
           <div class="grid grid-cols-3 justify-items-center p-3">
