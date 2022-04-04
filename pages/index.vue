@@ -121,60 +121,59 @@
         <p class="text-gray-500 font-light my-10 px-20 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
-        <div class="grid grid-cols-2 px-40 gap-5">
-          <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-            <Item />
-          </div>
-          <div>
-            <Item />
-          </div>
-          <div>
-            <Item />
-          </div>
-          <div>
-            <Item />
-          </div>
-<!--
-          <div>
-            class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-            <img src="ultimate-bacon.jpg" alt="">
+        <div class="flex flex-row gap-5 px-40">
+          <div class="grid grid-cols-2 gap-5">
+            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+              <img src="crispy-chicken.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <a href=""><strong>Ultimate Bacon</strong></a>
+              <a href=""><strong>Crispy Chicken</strong></a>
             </h4>
-            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
-              House beef patty, cheddar cheese, bacon, onion, mustard
+            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
+              Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
             </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0" position:absolute>
-              RM 14.99
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0" position:absolute>
+              RM 11.99
             </button>
+            </div>
+            <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+              <img src="ultimate-bacon.jpg" alt="">
+              <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
+                <a href=""><strong>Ultimate Bacon</strong></a>
+              </h4>
+              <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
+                House beef patty, cheddar cheese, bacon, onion, mustard
+              </p>
+              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0" position:absolute>
+                RM 14.99
+              </button>
+            </div>
           </div>
-          <div
-            class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-            <img src="baa-baa.jpg" alt="">
-            <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <a href=""><strong>Baa-Baa Black Sheep</strong></a>
-            </h4>
-            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
-              American cheese, tomato relish, avocado, lettuce, red onion
-            </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
-              RM 15.75
-            </button>
+          <div class="grid grid-cols-2 gap-5">
+            <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+              <img src="baa-baa.jpg" alt="">
+              <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
+                <a href=""><strong>Baa-Baa Black Sheep</strong></a>
+              </h4>
+              <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
+                American cheese, tomato relish, avocado, lettuce, red onion
+              </p>
+              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
+                RM 15.75
+              </button>
+            </div>
+            <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+              <img src="double-burger.jpg" alt="">
+              <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
+                <a href=""><strong>Double Burger</strong></a>
+              </h4>
+              <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
+                2 beef patties, cheddar cheese, mustard, pickles, tomatoes
+              </p>
+              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
+                RM 15.35
+              </button>
+            </div>
           </div>
-          <div
-            class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-            <img src="double-burger.jpg" alt="">
-            <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <a href=""><strong>Double Burger</strong></a>
-            </h4>
-            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2">
-              2 beef patties, cheddar cheese, mustard, pickles, tomatoes
-            </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
-              RM 15.35
-            </button>
-          </div>
-          -->
         </div>
       </div>
       <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
@@ -342,7 +341,7 @@
       <div id="footer" class="text-center text-gray-600 text-light text-sm p-10 border-t-2 border-opacity-10 border-color-gray-200 bg-gray-100">
         <p>
           @ 2022 Testo Burgers. All Rights Reserved | <a href="">About Us</a> | <a href="">Gift Cards</a> | <a href="">Terms Of Use</a> | <a href="">Privacy Policy</a>
-          <audio id="audiofile" controls loop autoplay><source src="/eatstreet.mp3" type="audio/mp3"> Sorry, your browser doesn't support this audio. </audio><script>document.getElementById('audiofile').play();</script>
+          <audio id="audiofile" controls loop autoplay><source src="/eatstreet.mp3" type="audio/mp3"> Sorry, your browser doesn't support this audio.</audio><script>document.getElementById("audiofile").play();</script>
         </p>
       </div>
     </div>
