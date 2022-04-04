@@ -121,7 +121,7 @@
         <p class="text-gray-500 font-light my-10 px-20 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
-        <div class="flex flex-row gap-5 px-40">
+        <div class="flex flex-row flex-wrap gap-5 px-40">
           <div class="grid grid-cols-2 gap-5">
             <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
               <img src="crispy-chicken.jpg" alt="">
@@ -135,7 +135,7 @@
               RM 11.99
             </button>
             </div>
-            <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
               <img src="ultimate-bacon.jpg" alt="">
               <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
                 <a href=""><strong>Ultimate Bacon</strong></a>
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="grid grid-cols-2 gap-5">
-            <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
               <img src="baa-baa.jpg" alt="">
               <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
                 <a href=""><strong>Baa-Baa Black Sheep</strong></a>
@@ -161,7 +161,7 @@
                 RM 15.75
               </button>
             </div>
-            <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
               <img src="double-burger.jpg" alt="">
               <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
                 <a href=""><strong>Double Burger</strong></a>
