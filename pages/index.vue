@@ -114,27 +114,29 @@
           </p>
         </div>
       </div>
-      <div id="featuredburgers" class="text-cente bg-gray-100">
-        <h2 class="uppercase text-5xl font-roboto text-red-500 font-semibold text-center pt-16 pb-3">
+      <div id="featuredburgers" class="text-center bg-gray-100">
+        <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium text-center pt-20 pb-3">
           Our Crazy Burgers
         </h2>
-        <p class="text-gray-800 text-opacity-80 font-light text-center p-5 px-20">
+        <p class="text-gray-500 font-light my-10 px-20 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
-        <div class="grid grid-cols-4 gap-x-3 text-left">
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-            <img src="crispy-chicken.jpg" alt="">
-            <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <a href=""><strong>Crispy Chicken</strong></a>
-              </h4>
-            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
-              Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
-            </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0" position:absolute>
-              RM 11.99
-            </button>
+        <div class="grid grid-cols-2 px-40 gap-5">
+          <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+            <Item />
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+          <div>
+            <Item />
+          </div>
+          <div>
+            <Item />
+          </div>
+          <div>
+            <Item />
+          </div>
+<!--
+          <div>
+            class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="ultimate-bacon.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <a href=""><strong>Ultimate Bacon</strong></a>
@@ -146,7 +148,8 @@
               RM 14.99
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+          <div
+            class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="baa-baa.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <a href=""><strong>Baa-Baa Black Sheep</strong></a>
@@ -158,7 +161,8 @@
               RM 15.75
             </button>
           </div>
-          <div class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
+          <div
+            class="border-2 border-opacity-20 border-gray-300 rounded-sm relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
             <img src="double-burger.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
               <a href=""><strong>Double Burger</strong></a>
@@ -170,7 +174,7 @@
               RM 15.35
             </button>
           </div>
-          </div>
+          -->
         </div>
       </div>
       <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
