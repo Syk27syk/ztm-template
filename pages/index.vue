@@ -24,9 +24,12 @@
             </ul>
           </div>
         </div>
-        <div class="flex flex-row pb-20 pt-10">
-          <img src="hero-burger.png" class="pr-8 mt-10 max-h-96 min-w-lg md:animate-spin lg:animate-none" alt="" />
-          <div id="hero-text">
+        <div class="flex flex-row justify-center gap-32 pb-20 pt-10">
+          <div class="relative">
+            <img src="hero-burger.png" class="pr-8 mt-10 max-w-xl hover:animate-spin" alt="" />
+            <img src="play_with_me.png" class="absolute -top-20 -right-20 h-48 w-48" />
+          </div>
+          <div id="hero-text" class="max-w-2xl">
             <h1 class="text-8xl text-white text-center min-w-lg font-lilita uppercase">
               Classic Burger
             </h1>
