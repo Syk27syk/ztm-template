@@ -51,8 +51,8 @@
         </button>
       </div>
       <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 text-center place-items-center">
-        <div class="relative">
-          <div class="flex justify-center p-5">
+        <div>
+          <div class="flex flex-col justify-center p-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-16 w-16"
@@ -73,7 +73,7 @@
             We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.
           </p>
         </div>
-        <div class="flex justify-center p-5">
+        <div class="flex flex-col justify-center p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-16 w-16"
@@ -85,7 +85,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-            </svg>
+          </svg>
           <h5 class="font-oswald uppercase p-5">
             <strong>Quality Foods</strong>
           </h5>
@@ -93,7 +93,7 @@
             We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.
           </p>
         </div>
-        <div class="flex justify-center p-5">
+        <div class="flex flex-col justify-center p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-16 w-16"
