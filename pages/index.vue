@@ -174,6 +174,22 @@
               </button>
             </div>
           </div>
+          <div class="grid grid-cols-2 gap-5">
+            <div>
+              <p class="text-9xl"> test </p>
+            </div>
+            <div>
+              <p class="text-9xl"> test </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-5">
+            <div>
+              <p class="text-9xl"> test </p>
+            </div>
+            <div>
+              <p class="text-9xl"> test </p>
+            </div>
+          </div>
         </div>
       </div>
       <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
@@ -260,11 +276,11 @@
           <img src="brand-6.png" alt="" />
         </div>
       </div>
-<!--
+      <!--
       <div class="bg-[url('/i-like-food.svg')]">
         <p class="text-transparent p-20"> burger </p>
       </div>
--->
+      -->
       <div id="menufeature" class="pb-5 bg-gray-100">
         <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
           <a href="">Wide Selections</a>
