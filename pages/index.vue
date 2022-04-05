@@ -50,7 +50,7 @@
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 mx-50 text-center place-items-center">
+      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 px-48 text-center place-items-center">
         <div class="relative">
           <div class="p-5">
             <svg
@@ -224,9 +224,9 @@
           <a href=""><img src="offer-3.jpg" alt="" /></a>
         </div>
       </div>
-      <div id="bringingpeopletogether" class="flex flex-row gap-x-20 p-20 overflow-y-scroll">
-        <img src="about.png" alt="" class="bg-cover max-h-96"/>
-        <div class="m-2">
+      <div id="bringingpeopletogether" class="flex flex-row gap-x-20 p-20 overflow-y-scroll justify-center">
+        <img src="about.png" alt="" class="bg-cover max-h-96" />
+        <div class="m-2 max-w-3xl">
           <h3 class="text-3xl text-gray-900 text-semibold uppercase pt-5 pb-10">
              Nothing Brings People Together Like a Good Burger
           </h3>
@@ -288,15 +288,23 @@
         <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
-        <div class="grid grid-cols-4 gap-2 m-5 max-h-lg justify-center">
-          <a href=""><img src="img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-          <a href=""><img src="img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+        <div class="flex flex-row flex-wrap gap-5 mx-32 my-16 justify-center">
+          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+            <a href=""><img src="img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          </div>
+          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+            <a href=""><img src="img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          </div>
+          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+           <a href=""><img src="img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+           <a href=""><img src="img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          </div>
+          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+            <a href=""><img src="img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          </div>
         </div>
       </div>
       <div id="30mindelivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
@@ -313,7 +321,7 @@
           Call: 03-2282 6400
         </button>
       </div>
-      <div id="information" class="grid grid-cols-4 gap-x-14 text-center text-gray-900 mx-28 py-5 bg-gray-100 bg-cover">
+      <div id="information" class="bg-gray-100 px-28 py-5 grid grid-cols-4 gap-x-14 text-center text-gray-900">
         <div>
           <h5 class="text-bold uppercase p-2">
             <strong>Location</strong>
@@ -348,9 +356,9 @@
             For the latest updates!
           </p>
           <div class="grid grid-cols-3 justify-items-center p-3">
-            <a href=""><img src="facebook.png" alt="" class="h-5 w-5"/></a>
-            <a href=""><img src="instagram.png" alt="" class="h-5 w-5"/></a>
-            <a href=""><img src="youtube.png" alt="" class="h-5 w-5"/></a>
+            <a href=""><img src="facebook.png" alt="" class="h-5 w-5" /></a>
+            <a href=""><img src="instagram.png" alt="" class="h-5 w-5" /></a>
+            <a href=""><img src="youtube.png" alt="" class="h-5 w-5" /></a>
           </div>
         </div>
       </div>
