@@ -55,7 +55,7 @@
           <div class="p-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-16 w-16 justify-self-center"
+              class="h-16 w-16"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -76,7 +76,7 @@
         <div class="p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16 justify-self-center"
+            class="h-16 w-16"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -96,7 +96,7 @@
         <div class="p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16 justify-self-center"
+            class="h-16 w-16"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -288,15 +288,15 @@
         <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
-        <div class="grid grid-cols-4 gap-2 m-5">
-          <a href=""><img src="img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
-          <a href=""><img src="img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20"/></a>
+        <div class="grid grid-cols-4 gap-2 m-5 max-h-lg justify-center">
+          <a href=""><img src="img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+          <a href=""><img src="img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
         </div>
       </div>
       <div id="30mindelivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
