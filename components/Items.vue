@@ -10,5 +10,5 @@
        <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0" position:absolute>
             RM 11.99
         </button>
-        </div>
+    </div>
 </template>

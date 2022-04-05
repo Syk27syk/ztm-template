@@ -26,7 +26,7 @@
         </div>
         <div class="flex flex-row pb-20 pt-10">
           <img src="hero-burger.png" class="pr-8 mt-10 max-h-96 min-w-lg md:animate-spin lg:animate-none" alt="" />
-          <div>
+          <div id="hero-text">
             <h1 class="text-8xl text-white text-center min-w-lg font-lilita uppercase">
               Classic Burger
             </h1>
@@ -50,9 +50,9 @@
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 grid grid-cols-3 px-48 text-center place-items-center">
+      <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 text-center place-items-center">
         <div class="relative">
-          <div class="p-5">
+          <div class="flex justify-center p-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-16 w-16"
@@ -73,7 +73,7 @@
             We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.
           </p>
         </div>
-        <div class="p-5">
+        <div class="flex justify-center p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-16 w-16"
@@ -93,7 +93,7 @@
             We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.
           </p>
         </div>
-        <div class="p-5">
+        <div class="flex justify-center p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-16 w-16"
@@ -114,7 +114,7 @@
           </p>
         </div>
       </div>
-      <div id="featuredburgers" class="text-center bg-gray-100">
+      <div id="featured-burgers" class="text-center bg-gray-100">
         <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium text-center pt-20 pb-3">
           Our Crazy Burgers
         </h2>
@@ -224,7 +224,7 @@
           <a href=""><img src="offer-3.jpg" alt="" /></a>
         </div>
       </div>
-      <div id="bringingpeopletogether" class="flex flex-row gap-x-20 p-20 overflow-y-scroll justify-center">
+      <div id="bringing-people-together" class="flex flex-row gap-x-20 p-20 overflow-y-scroll justify-center">
         <img src="about.png" alt="" class="bg-cover max-h-96" />
         <div class="m-2 max-w-3xl">
           <h3 class="text-3xl text-gray-900 text-semibold uppercase pt-5 pb-10">
@@ -238,8 +238,8 @@
           </p>
         </div>
       </div>
-      <div id="downloadapp" class="grid grid-cols-2 bg-yellow-400 bg-cover m-30 relative">
-        <div class="text-red-900">
+      <div id="download-app" class="grid grid-cols-2 bg-yellow-400 bg-cover m-30 relative">
+        <div class="text-red-900 max-w-2xl px-16 flex-auto flex-shrink-0">
           <h4 class="uppercase text-2xl text-bold tracking-tight pl-20 pt-20">
             Download mobile app and
           </h4>
@@ -281,7 +281,7 @@
         <p class="text-transparent p-20"> burger </p>
       </div>
       -->
-      <div id="menufeature" class="pb-5 bg-gray-100">
+      <div id="menu-feature" class="pb-5 bg-gray-100">
         <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
           <a href="">Wide Selections</a>
         </h3>
@@ -307,7 +307,7 @@
           </div>
         </div>
       </div>
-      <div id="30mindelivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
+      <div id="30-min-delivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
         <h5 class="text-2xl tracking-tight text-bold uppercase pt-10">
           We Guarantee
         </h5>
@@ -322,7 +322,7 @@
         </button>
       </div>
       <div id="information" class="bg-gray-100 px-28 py-5 grid grid-cols-4 gap-x-14 text-center text-gray-900">
-        <div>
+        <div id="info-location">
           <h5 class="text-bold uppercase p-2">
             <strong>Location</strong>
           </h5>
@@ -330,7 +330,7 @@
             No. 1, Persiaran Bandar Utama,<br>47800 Petaling Jaya,<br>Selangor, Malaysia.
           </p>
         </div>
-        <div>
+        <div id="info-opening">
           <h5 class="text-bold uppercase p-2">
             <strong>Opening Hours</strong>
           </h5>
@@ -340,7 +340,7 @@
             <li> Sunday: 12:00PM - 5:00PM </li>
           </ul>
         </div>
-        <div>
+        <div id="info-phone">
           <h5 class="text-semibold uppercase p-2">
             <strong>Order Now</strong>
           </h5>
@@ -348,14 +348,14 @@
             Call our hotline at<br>03-2282 6400
           </p>
         </div>
-        <div>
+        <div id="info-follow">
           <h5 class="text-semibold uppercase p-2">
             <strong>Follow Us</strong>
           </h5>
           <p class="text-gray-800 text-light text-sm">
             For the latest updates!
           </p>
-          <div class="grid grid-cols-3 justify-items-center p-3">
+          <div id="social-media-icons" class="grid grid-cols-3 justify-items-center p-3">
             <a href=""><img src="facebook.png" alt="" class="h-5 w-5" /></a>
             <a href=""><img src="instagram.png" alt="" class="h-5 w-5" /></a>
             <a href=""><img src="youtube.png" alt="" class="h-5 w-5" /></a>
