@@ -193,20 +193,20 @@
             </div>
             <div>
               <Items
-                image="baa-baa.jpg"
-                title="Baa-Baa Black Sheep"
-                description="American cheese, tomato relish, avocado, juicy lamb patty"
-                price="15.75"
+                image="ultimate-bacon.jpg"
+                title="Ultimate Bacon"
+                description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
+                price="14.99"
               />
             </div>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
               <Items
-                image="ultimate-bacon.jpg"
-                title="Ultimate Bacon"
-                description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
-                price="14.99"
+                image="baa-baa.jpg"
+                title="Baa-Baa Black Sheep"
+                description="American cheese, tomato relish, avocado, juicy lamb patty"
+                price="15.75"
               />
             </div>
             <div>
