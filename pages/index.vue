@@ -121,8 +121,8 @@
         <p class="text-gray-500 font-light my-10 px-20 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
-        <div class="flex flex-row flex-wrap gap-5 px-40">
-          <div class="grid grid-cols-2 gap-5 max-w-xl">
+        <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
+          <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
               <img src="crispy-chicken.jpg" alt="">
             <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
@@ -131,7 +131,7 @@
             <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
               Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
             </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0" position:absolute>
+            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0">
               RM 11.99
             </button>
             </div>
@@ -143,12 +143,12 @@
               <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
                 House beef patty, cheddar cheese, bacon, onion, mustard
               </p>
-              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0" position:absolute>
+              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
                 RM 14.99
               </button>
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-5 max-w-xl">
+          <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
               <img src="baa-baa.jpg" alt="">
               <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
@@ -174,20 +174,20 @@
               </button>
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-5">
+          <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
-              <p class="text-9xl"> test </p>
+              <Items />
             </div>
             <div>
-              <p class="text-9xl"> test </p>
+              <Items />
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-5">
+          <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
-              <p class="text-9xl"> test </p>
+              <Items />
             </div>
             <div>
-              <p class="text-9xl"> test </p>
+              <Items />
             </div>
           </div>
         </div>
