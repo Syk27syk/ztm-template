@@ -121,6 +121,9 @@
         <p class="text-gray-500 font-light my-10 px-20 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
+        <p class="text-transparent text-xl text-medium hover:text-blue-400">
+          Coder comment: Built manually
+        </p>
         <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
@@ -174,20 +177,45 @@
               </button>
             </div>
           </div>
+        </div>
+        <p class="text-transparent text-xl text-medium hover:text-blue-400">
+          Coder comment: Built with components
+        </p>
+        <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
-              <Items />
+              <Items
+                image="crispy-chicken.jpg"
+                title="Crispy Chicken"
+                description="Chicken breast, chili sauce, tomatoes, pickles, coleslaw"
+                price="11.99"
+              />
             </div>
             <div>
-              <Items />
+              <Items
+                image="baa-baa.jpg"
+                title="Baa-Baa Black Sheep"
+                description="American cheese, tomato relish, avocado, juicy lamb patty"
+                price="15.75"
+              />
             </div>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
-              <Items />
+              <Items
+                image="ultimate-bacon.jpg"
+                title="Ultimate Bacon"
+                description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
+                price="14.99"
+              />
             </div>
             <div>
-              <Items />
+              <Items
+                image="double-burger.jpg"
+                title="Double Burger"
+                description="2 x beef patties, cheddar cheese, mustard, pickles, tomatoes"
+                price="15.35"
+              />
             </div>
           </div>
         </div>
