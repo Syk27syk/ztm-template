@@ -55,10 +55,10 @@
       </div>
       <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 text-center place-items-center">
         <div>
-          <div class="flex flex-col justify-center p-5">
+          <div class="flex flex-col mx-auto p-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-16 w-16"
+              class="h-16 w-16 mx-auto"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -76,10 +76,10 @@
             We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.
           </p>
         </div>
-        <div class="flex flex-col justify-center p-5">
+        <div class="flex flex-col mx-auto p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16"
+            class="h-16 w-16 mx-auto"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -96,10 +96,10 @@
             We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.
           </p>
         </div>
-        <div class="flex flex-col justify-center p-5">
+        <div class="flex flex-col mxo-auto p-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16"
+            class="h-16 w-16 mx-auto"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
