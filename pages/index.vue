@@ -35,10 +35,10 @@
           <a href="">Explore Full Menu</a>
         </button>
       </div>
-      <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 text-center place-items-center">
+      <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 h-48 text-center place-items-center">
         <div>
-          <div class="flex flex-col mx-auto p-5">
-            <svg
+          <HomeHeroicons
+            heroicon='<svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-16 w-16 mx-auto"
               fill="none"
@@ -49,17 +49,12 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-            </svg>
-          </div>
-          <h5 class="font-oswald uppercase p-5">
-            <strong>Original Recipes</strong>
-          </h5>
-          <p class="text-black-400 text-opacity-80 font-light pb-10">
-            We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.
-          </p>
-        </div>
-        <div class="flex flex-col mx-auto p-5">
-          <svg
+              </svg>'
+            title='Original Recipes'
+            description='We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.'
+          />
+          <HomeHeroicons
+            heroicon='<svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-16 w-16 mx-auto"
             fill="none"
@@ -70,33 +65,26 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-          </svg>
-          <h5 class="font-oswald uppercase p-5">
-            <strong>Quality Foods</strong>
-          </h5>
-          <p class="text-black-400 text-opacity-80 font-light pb-10">
-            We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.
-          </p>
-        </div>
-        <div class="flex flex-col mxo-auto p-5">
-          <svg
+            </svg>'
+            title='Quality Foods'
+            description='We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.'
+          />
+          <HomeHeroicons
+            heroicon='<svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-16 w-16 mx-auto"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
             stroke-width="1">
-          <path
+            <path
             stroke-linecap="round"
             stroke-linejoin="round"
             d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
-          <h5 class="font-oswald uppercase p-5">
-            <strong>Fastest Delivery</strong>
-          </h5>
-          <p class="text-black-400 text-opacity-80 font-light pb-10">
-            Burgers are best served while it's hot. We deliver to your door with our speedy delivery partners from the nearest outlet.
-          </p>
+            </svg>'
+            title='Fastest Delivery'
+            description='Burgers are best served while it/s hot. We deliver to your door with our speedy delivery partners from the nearest outlet.'
+          />
         </div>
       </div>
       <div id="featured-burgers" class="text-center bg-gray-100">
@@ -105,66 +93,6 @@
         </h2>
         <p class="text-gray-500 font-light my-10 px-20 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
-        </p>
-        <p class="text-transparent text-xl text-medium hover:text-blue-400">
-          Coder comment: Built manually
-        </p>
-        <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
-          <div class="grid grid-cols-2 gap-5 max-w-3xl">
-            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-              <img src="crispy-chicken.jpg" alt="">
-            <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-              <a href=""><strong>Crispy Chicken</strong></a>
-            </h4>
-            <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
-              Chicken breast, chilli sauce, tomatoes, pickles, coleslaw
-            </p>
-            <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 absolute bottom-0 left-0">
-              RM 11.99
-            </button>
-            </div>
-            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-              <img src="ultimate-bacon.jpg" alt="">
-              <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-                <a href=""><strong>Ultimate Bacon</strong></a>
-              </h4>
-              <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
-                House beef patty, cheddar cheese, bacon, onion, mustard
-              </p>
-              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
-                RM 14.99
-              </button>
-            </div>
-          </div>
-          <div class="grid grid-cols-2 gap-5 max-w-3xl">
-            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-              <img src="baa-baa.jpg" alt="">
-              <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-                <a href=""><strong>Baa-Baa Black Sheep</strong></a>
-              </h4>
-              <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
-                American cheese, tomato relish, avocado, lettuce, red onion
-              </p>
-              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
-                RM 15.75
-              </button>
-            </div>
-            <div class="border rounded-md border-gray-200 text-left pb-5 relative hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-              <img src="double-burger.jpg" alt="">
-              <h4 class="text-lg px-2 pt-2 uppercase text-gray-500">
-                <a href=""><strong>Double Burger</strong></a>
-              </h4>
-              <p class="text-gray-800 text-opacity-80 font-light text-sm p-2 pb-20">
-                2 beef patties, cheddar cheese, mustard, pickles, tomatoes
-              </p>
-              <button class="bg-red-900 text-yellow-500 font-semibold px-3 py-2 rounded-md m-3 object-left-bottom absolute bottom-0 left-0">
-                RM 15.35
-              </button>
-            </div>
-          </div>
-        </div>
-        <p class="text-transparent text-xl text-medium hover:text-blue-400">
-          Coder comment: Built with components
         </p>
         <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
@@ -334,53 +262,9 @@
           Call: 03-2282 6400
         </button>
       </div>
-      <div id="information" class="bg-gray-100 px-28 py-5 grid grid-cols-4 gap-x-14 text-center text-gray-900">
-        <div id="info-location">
-          <h5 class="text-bold uppercase p-2">
-            <strong>Location</strong>
-          </h5>
-          <p class="text-gray-800 text-light text-sm">
-            No. 1, Persiaran Bandar Utama,<br>47800 Petaling Jaya,<br>Selangor, Malaysia.
-          </p>
-        </div>
-        <div id="info-opening">
-          <h5 class="text-bold uppercase p-2">
-            <strong>Opening Hours</strong>
-          </h5>
-          <ul class="text-gray-800 text-light text-sm">
-            <li> Mon-Fri: 9:00AM - 10:00PM </li>
-            <li> Saturday: 10:00AM - 8:30PM </li>
-            <li> Sunday: 12:00PM - 5:00PM </li>
-          </ul>
-        </div>
-        <div id="info-phone">
-          <h5 class="text-semibold uppercase p-2">
-            <strong>Order Now</strong>
-          </h5>
-          <p class="text-gray-800 text-light text-sm">
-            Call our hotline at<br>03-2282 6400
-          </p>
-        </div>
-        <div id="info-follow">
-          <h5 class="text-semibold uppercase p-2">
-            <strong>Follow Us</strong>
-          </h5>
-          <p class="text-gray-800 text-light text-sm">
-            For the latest updates!
-          </p>
-          <div id="social-media-icons" class="grid grid-cols-3 justify-items-center p-3">
-            <a href=""><img src="facebook.png" alt="" class="h-5 w-5" /></a>
-            <a href=""><img src="instagram.png" alt="" class="h-5 w-5" /></a>
-            <a href=""><img src="youtube.png" alt="" class="h-5 w-5" /></a>
-          </div>
-        </div>
-      </div>
-      <div id="footer" class="text-center text-gray-600 text-light text-sm p-10 border-t-2 border-opacity-10 border-color-gray-200 bg-gray-100">
-        <p>
-          @ 2022 Testo Burgers. All Rights Reserved | <a href="">About Us</a> | <a href="">Gift Cards</a> | <a href="">Terms Of Use</a> | <a href="">Privacy Policy</a>
-          <audio id="audiofile" controls loop autoplay><source src="/eatstreet.mp3" type="audio/mp3"> Sorry, your browser doesn't support this audio.</audio><script>document.getElementById("audiofile").play();</script>
-        </p>
-      </div>
+    </div>
+    <div>
+      <BurgerBottom />
     </div>
   </div>
 </template>

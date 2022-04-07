@@ -1,0 +1,20 @@
+<template>
+    <div>
+        <div class="flex flex-col mx-auto p-5">
+            {{ heroicon }}
+          </div>
+          <h5 class="font-oswald uppercase p-5">
+            <strong>{{ title }} </strong>
+          </h5>
+          <p class="text-black-400 text-opacity-80 font-light pb-10">
+            {{ description }}
+          </p>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+  props: ['heroicon', 'title', 'description'],
+};
+</script>

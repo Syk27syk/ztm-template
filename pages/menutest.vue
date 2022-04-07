@@ -36,10 +36,24 @@
     -->
   </div>
   </div>
-  <div id="items" class="grid grid-cols-3 px-32 gap-5 m-5">
-   <MenuItem />
-   <MenuItem />
-   <MenuItem />
+  <div id="items" class="grid grid-cols-3 mt-10 mx-20 gap-5">
+   <MenuItem v-for"b in itemrs"
+   :key=:"b.name" :item="b"/>
   </div>
  </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+        items: [],
+    };
+  };
+  mounted() {
+    this.$axios.get("items.json").then(response)=>{
+      this.items=response.data.burgers;
+    });
+  });
+});
+</script>
