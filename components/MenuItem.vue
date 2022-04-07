@@ -5,7 +5,7 @@
         <img :src="item.image" alt="" class="border border-gray p-5" />
       </div>
       <h4 class="font-oswald uppercase text-2xl mt-5">
-        {{ item.description}}
+        {{ item.description }}
       </h4>
       <p class="font-light text-gray-500 my-2">
         {{ item.description }}
