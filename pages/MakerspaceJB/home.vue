@@ -31,15 +31,15 @@
             <div id="upcoming events">
                 <h3 class="text-3xl"> Upcoming Events </h3>
                 <div>
-                    <Plenum />
-                    <Plenum />
-                    <Plenum />
-                    <Plenum />
+                    <MakerspacePlenum />
+                    <MakerspacePlenum />
+                    <MakerspacePlenum />
+                    <MakerspacePlenum />
                 </div>
             </div>
             <div id="tweets">
                 <h3 class="text-3xl">Tweets</h3>
-                <p>(embed twitter timeline)</p>
+                <a class="twitter-timeline" href="https://twitter.com/BostonMakers?ref_src=twsrc%5Etfw">Tweets by BostonMakers</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8">embed twitter timeline</script>
             </div>
         </div>
         <div id="information" class="grid grid-cols-3 p-32 bg-black text-white text-center">
@@ -73,3 +73,9 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+  props: ['image', 'plenumlink', 'day', 'time'],
+};
+</script>
