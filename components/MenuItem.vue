@@ -15,7 +15,7 @@
           RM {{ item.price.toFixed(2) }}
         </span>
       </p>
-      <button class="button font-oswald uppercase text-black dark:text-gray-200">
+      <button class="button font-oswald uppercase text-black dark:text-gray-200" @click="addItem">
         Add to cart
       </button>
     </div>
@@ -25,5 +25,10 @@
 <script>
 export default {
   props: ['item'],
+  methods: {
+    addItem() {
+      this.$store.commit('addItem', this.item);
+    },
+  },
 };
 </script>

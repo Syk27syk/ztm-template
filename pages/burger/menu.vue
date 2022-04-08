@@ -60,3 +60,14 @@ export default {
   },
 };
 </script>
+
+<script>
+export default {
+  props: ["item"],
+  methods: {
+    addItem() {
+      this.$store.commit('addItem',this.item);
+    },
+  },
+};
+</script>
