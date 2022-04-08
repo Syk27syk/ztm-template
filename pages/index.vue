@@ -8,8 +8,8 @@
         </div>
         <div class="flex flex-row justify-center gap-32 pb-20 pt-10">
           <div class="relative">
-            <img src="hero-burger.png" class="pr-8 mt-10 max-w-xl hover:animate-spin" alt="" />
-            <img src="play_with_me.png" class="absolute -top-20 -right-20 h-48 w-48" />
+            <img src="/hero-burger.png" class="pr-8 mt-10 max-w-xl hover:animate-spin" alt="" />
+            <img src="/play_with_me.png" class="absolute -top-20 -right-20 h-48 w-48" />
           </div>
           <div id="hero-text" class="max-w-2xl">
             <h1 class="text-8xl text-white text-center min-w-lg font-lilita uppercase">
@@ -156,17 +156,17 @@
       </div>
       <div id="promotions-2" class="grid grid-cols-3 gap-x-3">
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <a href=""><img src="offer-1.jpg" alt="" /></a>
+          <a href=""><img src="/offer-1.jpg" alt="" /></a>
         </div>
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <a href=""><img src="offer-2.jpg" alt="" /></a>
+          <a href=""><img src="/offer-2.jpg" alt="" /></a>
         </div>
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <a href=""><img src="offer-3.jpg" alt="" /></a>
+          <a href=""><img src="/offer-3.jpg" alt="" /></a>
         </div>
       </div>
       <div id="bringing-people-together" class="flex flex-row gap-x-20 p-20 overflow-y-scroll justify-center">
-        <img src="about.png" alt="" class="bg-cover max-h-96" />
+        <img src="/about.png" alt="" class="bg-cover max-h-96" />
         <div class="m-2 max-w-3xl">
           <h3 class="text-3xl text-gray-900 text-semibold uppercase pt-5 pb-10">
              Nothing Brings People Together Like a Good Burger
@@ -195,26 +195,26 @@
             <button class="bg-[url('/googleplay.png')] bg-cover h-9 text-transparent"> Google Play </button>
           </div>
         </div>
-        <img src="eshop.png" alt="" class="absolute -top-8 right-6 max-w-lg">
+        <img src="/eshop.png" alt="" class="absolute -top-8 right-6 max-w-lg">
       </div>
       <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
         <div class="h-28 w-28 p-2">
-          <img src="brand-1.png" alt="" />
+          <img src="/brand-1.png" alt="" />
         </div>
         <div class="h-28 w-28 p-2">
-          <img src="brand-2.png" alt="" />
+          <img src="/brand-2.png" alt="" />
         </div>
         <div class="h-28 w-28 p-2">
-          <img src="brand-3.png" alt="" />
+          <img src="/brand-3.png" alt="" />
         </div>
         <div class="h-28 w-28 p-2">
-          <img src="brand-4.png" alt="" />
+          <img src="/brand-4.png" alt="" />
         </div>
         <div class="h-28 w-28 p-2">
-          <img src="brand-5.png" alt="" />
+          <img src="/brand-5.png" alt="" />
         </div>
         <div class="h-28 w-28 p-2">
-          <img src="brand-6.png" alt="" />
+          <img src="/brand-6.png" alt="" />
         </div>
       </div>
       <!--
@@ -231,20 +231,20 @@
         </p>
         <div class="flex flex-row flex-wrap gap-5 mx-32 my-16 justify-center">
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-            <a href=""><img src="img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-            <a href=""><img src="img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="/img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="/img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-            <a href=""><img src="img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-            <a href=""><img src="img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="/img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="/img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-           <a href=""><img src="img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-           <a href=""><img src="img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+           <a href=""><img src="/img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+           <a href=""><img src="/img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-            <a href=""><img src="img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-            <a href=""><img src="img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="/img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <a href=""><img src="/img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
           </div>
         </div>
       </div>
