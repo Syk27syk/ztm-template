@@ -1,6 +1,6 @@
 <template>
  <div>
-  <div id="header" class="bg-[url('/menu-page.jpg')] bg-center relative">
+  <div id="header" class="relative bg-left bg-[url('/menu-light.png')] dark:bg-[url('/menu-page.jpg')]">
    <div id="menu" class="grid grid-cols-4 px-20 py-5">
     <div id="menu-left">
      <img src="/logo.png" class="w-[150px]" alt="" />
@@ -23,7 +23,7 @@
     </div>
    </div>
    <div>
-    <h1 class="text-white font-oswald uppercase text-6xl text-center pt-24 pb-28 z-20">
+    <h1 class="font-oswald uppercase text-6xl text-center pt-24 pb-28 z-20 text-black dark:text-white">
      Our Menu
     </h1>
     <!--
@@ -36,7 +36,7 @@
     -->
   </div>
   </div>
-  <div id="items" class="grid grid-cols-3 mt-10 mx-20 gap-5">
+  <div id="items" class="grid grid-cols-3 pt-10 px-20 gap-5 bg-gray-100 dark:bg-gray-900">
    <MenuItem
    v-for="b in items"
    :key="b.name"
