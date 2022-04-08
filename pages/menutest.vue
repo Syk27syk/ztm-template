@@ -3,7 +3,7 @@
   <div id="header" class="relative bg-left bg-[url('/menu-light.png')] dark:bg-[url('/menu-page.jpg')]">
    <div id="menu" class="grid grid-cols-4 px-20 py-5">
     <div id="menu-left">
-     <img src="/logo.png" class="w-[150px]" alt="" />
+     <a href="/index"><img src="/logo.png" class="w-[150px]" alt="" /></a>
     </div>
     <div id="menu-right" class="col-start-2 col-end-4 justify-end">
      <ul class="flex flex-row flex-wrap space-x-10 text-lg font-oswald text-white uppercase pt-5 flex-auto min-w-lg">
@@ -36,7 +36,7 @@
     -->
   </div>
   </div>
-  <div id="items" class="grid grid-cols-3 pt-10 px-20 gap-5 bg-gray-100 dark:bg-gray-900">
+  <div id="items" class="grid grid-cols-3 pt-10 px-20 gap-5 bg-gray-100 dark:bg-black">
    <MenuItem
    v-for="b in items"
    :key="b.name"

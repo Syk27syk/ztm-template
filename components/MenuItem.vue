@@ -4,10 +4,10 @@
       <div>
         <img :src="item.image" alt="" class="border border-gray p-5" />
       </div>
-      <h4 class="font-oswald uppercase text-2xl mt-5">
+      <h4 class="font-oswald uppercase text-2xl mt-5 text-black dark:text-gray-100">
         {{ item.name }}
       </h4>
-      <p class="font-light text-gray-500 my-2">
+      <p class="font-light text-gray-500 dark:text-gray-300 my-2">
         {{ item.description }}
       </p>
       <p class="mt-5 mb-8">
@@ -15,7 +15,7 @@
           RM {{ item.price.toFixed(2) }}
         </span>
       </p>
-      <button class="button font-oswald uppercase">
+      <button class="button font-oswald uppercase text-black dark:text-gray-200">
         Add to cart
       </button>
     </div>
