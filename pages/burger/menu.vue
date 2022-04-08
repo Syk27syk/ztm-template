@@ -3,7 +3,7 @@
   <div id="header" class="relative bg-left bg-[url('/menu-light.png')] dark:bg-[url('/menu-page.jpg')]">
    <div id="menu" class="grid grid-cols-4 px-20 py-5">
     <div id="menu-left">
-     <img src="/logo.png" class="w-[150px]" alt="" />
+     <a href="/index"><img src="/logo.png" class="w-[150px]" alt="" /></a>
     </div>
     <div id="menu-right" class="col-start-2 col-end-4 justify-end">
      <ul class="flex flex-row flex-wrap space-x-10 text-lg font-oswald text-white uppercase pt-5 flex-auto min-w-lg">
@@ -57,17 +57,6 @@ export default {
       (response) => {
         this.items = response.data.burgers;
       });
-  },
-};
-</script>
-
-<script>
-export default {
-  props: ["item"],
-  methods: {
-    addItem() {
-      this.$store.commit('addItem',this.item);
-    },
   },
 };
 </script>
