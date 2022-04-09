@@ -19,7 +19,7 @@
                 </h5>
                 <ul>
                     <li>24/7 access to the space</li>
-                    <li>Keep your stuff in a locker or designated storage box (additional subscription applies)
+                    <li>Keep your stuff in a locker or designated storage box (additional subscription applies)</li>
                     <li>Use the workbench and hardware tools</li>
                     <li>Host community meetups,workshops, and other events at the space</li>
                     <li>Borrow books from our library</li>
@@ -82,7 +82,7 @@
             <div id="QRpay" class="text-center mx-auto">
                 <img src="/makerspacejb/qrpay.png" alt="" />
             </div>
-            <p>Another painless way is to use PayPal to enter into a monthly subscription.
+            <p>Another painless way is to use PayPal to enter into a monthly subscription.</p>
             <div id="paypal" class="flex flex-col">
                 <p>MakerspaceJB monthly membership</p>
                 <p class="bg-red-300">(dropdown menu for membership types)</p>
