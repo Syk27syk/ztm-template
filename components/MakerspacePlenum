@@ -1,8 +1,0 @@
-<template>
-    <div class="p-24">
-        <h1> title of Plenum </h1>
-        <img :src="image" alt="" class="w-48 h-48">
-        <h5><a :href="plenumlink"></a>Plenum (tentative)</a></h5>
-        <p>in 10 days at 8:00pm</p>
-    </div>
-<template>
