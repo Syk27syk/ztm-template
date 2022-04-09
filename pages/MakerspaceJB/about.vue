@@ -49,6 +49,9 @@
                 <p>
                     Reuben Ch'ng, Lau Cher Han, Koh Wyhow, Seng Yung Quek, MK Chan, Wise Lee, Nazura, CJ Phua, Carol Tan, Sri Barratan, Teoh Alvin, Azhar Ramadhan, Martin Makial, Alex Foong, Ash.
                 </p>
+                <p>
+                    Jumanne Awiti, Stav Gili, Giselle Oliver, Crispin Shaw, Lorayne Tottie, Hai Wen, Bo Yang, Antonieta Valentina, Yeong-Ho, Manjo Aryan, Antoine Celia, Kylian Agnes, Roi Dores.
+                </p>
             </div>
         </div>
         <div id="bottom">

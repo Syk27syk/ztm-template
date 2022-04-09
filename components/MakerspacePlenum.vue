@@ -7,3 +7,9 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+  props: ['plenumlink', 'description', 'days', 'time']
+};
+</script>
