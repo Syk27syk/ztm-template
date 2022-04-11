@@ -12,32 +12,37 @@
           <MakerspaceCon />
         </div>
         <div id="featured-workshops">
+            <h3 class="text-3xl text-black text-oswald uppercase">
+                Featured Workshops
+            </h3>
+            <MakerspaceWorkshop
+                image="/makerclass/bb8.png"
+                name="Build a Bot"
+                description="Build a droid to bring home"
+                duration="1 week"
+                link="/makerspacejb/bb8buildabotCoursePage"
+            />
+            <MakerspaceWorkshop />
+            <MakerspaceWorkshop />
             <div>
-                <img src="" alt="">
-                <h4>Build a Bot</h4>
+                <img src="/makerclass/app" alt="">
+                <h4 class="text-2xl text-black text-oswald uppercase">Build an App</h4>
                 <p id="description">
-                    description
+                    Build your own mobile application
+                    Course duration: 1 week
                 </p>
-                <button>see course page</button>
-                <button>checkout</button>
+                <button><NuxtLink to="/MakerspaceJB/appCoursePage">see course page</NuxtLink></button>
+                <button @click="bookItem">Book Now</button>
             </div>
             <div>
-                <img src="" alt="">
-                <h4>Build an App</h4>
+                <img src="makerclass/cubesat" alt="">
+                <h4 class="text-2xl text-black text-oswald uppercase">Build a Satellite</h4>
                 <p id="description">
-                    description
+                    Build your own satellite for $1,000
+                    Course duration: 3 weeks
                 </p>
-                <button>see course page</button>
-                <button>checkout</button>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h4>Build a Satellite</h4>
-                <p id="description">
-                    description
-                </p>
-                <button>see course page</button>
-                <button>checkout</button>
+                <button><NuxtLink to="/MakerspaceJB/cubesatCoursePage">see course page</NuxtLink></button>
+                <button @click="bookItem">Book Now</button>
             </div>
         </div>
         <div id="coding-workshops">
