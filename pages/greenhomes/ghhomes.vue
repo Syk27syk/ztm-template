@@ -27,17 +27,21 @@
     </div>
     <div class="m-auto">
       <h2><strong>Welcome Video</strong></h2>
-      <p class="mt-5"><iframe width="560"
-                              height="315"
-                              src="https://www.youtube.com/embed/XP6xRZCFDYU"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen/>
-                      <iframe/>
+      <p class="mt-5">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/XP6xRZCFDYU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen />
+        <iframe />
       </p>
-      <p class="mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-      Excepteur sint occaecat cupidatat, ut enim ad minim veniam.</p>
+      <p class="mt-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Excepteur sint occaecat cupidatat, ut enim ad minim veniam.
+      </p>
     </div>
     <div class="m-auto">
       <h2><strong><em>Products Overview</em></strong></h2>
@@ -77,7 +81,7 @@
             <label for=”email”> Email </label>
               <input id=”email” email=”email_address” type=”email” required placeholder=me@example.com></input>
             <label for=”phone”> Phone number </label>
-              <input id=”phone” phone =”phone_number” type=”tel” required>Phone</input>
+              <input id=”phone” phone=”phone_number” type=”tel” required>Phone</input>
             <button type=”submit”> Sign up </button>
           </form>
       </div>
