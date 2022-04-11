@@ -32,7 +32,7 @@
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
         <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8 animate-pulse">
-          <a href="">Explore Full Menu</a>
+          <NuxtLink to="/menutest">Explore Full Menu</NuxtLink>
         </button>
       </div>
       <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 h-48 text-center place-items-center">
@@ -156,13 +156,13 @@
       </div>
       <div id="promotions-2" class="grid grid-cols-3 gap-x-3">
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <a href=""><img src="/offer-1.jpg" alt="" /></a>
+          <NuxtLink to=""><img src="/offer-1.jpg" alt="" /></NuxtLink>
         </div>
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <a href=""><img src="/offer-2.jpg" alt="" /></a>
+          <NuxtLink to=""><img src="/offer-2.jpg" alt="" /></NuxtLink>
         </div>
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <a href=""><img src="/offer-3.jpg" alt="" /></a>
+          <NuxtLink to=""><img src="/offer-3.jpg" alt="" /></NuxtLink>
         </div>
       </div>
       <div id="bringing-people-together" class="flex flex-row gap-x-20 p-20 overflow-y-scroll justify-center">
@@ -224,27 +224,27 @@
       -->
       <div id="menu-feature" class="pb-5 bg-gray-100">
         <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
-          <a href="">Wide Selections</a>
+          <NuxtLink to="/menutest">Wide Selections</NuxtLink>
         </h3>
         <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
         <div class="flex flex-row flex-wrap gap-5 mx-32 my-16 justify-center">
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-            <a href=""><img src="/img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-            <a href=""><img src="/img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <NuxtLink to=""><img src="/img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to=""><img src="/img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-            <a href=""><img src="/img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-            <a href=""><img src="/img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <NuxtLink to=""><img src="/img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to=""><img src="/img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-           <a href=""><img src="/img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-           <a href=""><img src="/img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+           <NuxtLink to=""><img src="/img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+           <NuxtLink to=""><img src="/img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
           <div class="grid grid-cols-2 gap-5 max-w-2xl">
-            <a href=""><img src="/img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
-            <a href=""><img src="/img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></a>
+            <NuxtLink to=""><img src="/img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to=""><img src="/img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
         </div>
       </div>
