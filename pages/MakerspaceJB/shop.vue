@@ -15,10 +15,16 @@
                 </div>
             </div>
             <div id="gifts">
+                <h3 class="text-3xl text-black text-oswald uppercase">
+                    gifts
+                </h3>
                 <div id="items">
-                    <Product />
-                    <Product />
-                    <Product />
+                    <Product
+                    />
+                    <Product
+                    />
+                    <Product
+                    />
                 </div>
             </div>
             <div id="makertools">
