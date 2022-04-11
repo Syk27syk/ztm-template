@@ -6,18 +6,36 @@
           </div>
           <div id="menu-right" class="col-start-2 col-end-4 justify-end">
             <ul class="flex flex-row flex-wrap space-x-10 text-lg font-oswald text-white uppercase pt-5 flex-auto min-w-lg">
-              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
-                <NuxtLink to="/burger/about">About Us</NuxtLink>
-              </li>
-              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
-                <NuxtLink to="/burger/menu">Our Menu</NuxtLink>
-              </li>
-              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
-                <NuxtLink to="/burger/locations">Locations</NuxtLink>
-              </li>
-              <li class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3">
-                <NuxtLink to="/burger/contacts">Contacts</NuxtLink>
-              </li>
+              <NuxtLink
+                to="/burger/about"
+                class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
+              >
+                About Us
+              </NuxtLink>
+              <NuxtLink
+                to="/burger/menu"
+                class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
+              >
+                Our Menu
+              </NuxtLink>
+              <NuxtLink
+                to="/burger/locations"
+                class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
+              >
+                Locations
+              </NuxtLink>
+              <NuxtLink
+                to="/burger/contacts"
+                class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
+              >
+                Contacts
+              </NuxtLink>
+              <NuxtLink
+                to="/cart"
+                class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
+              >
+                Cart
+              </NuxtLink>
             </ul>
           </div>
         </div>
