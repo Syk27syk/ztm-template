@@ -8,9 +8,9 @@
                     Communities
                 </h4>
                 <ul>
-                    <li><a href="/makerspacejb/home">Makerspace JB</a></li>
-                    <li><a href="/pollinatorentrecamp/home">Pollinator Entrecamp</a></li>
-                    <li><a href="/kettlesyard/home">KettlesYard</a></li>
+                    <li><NuxtLink to="/makerspacejb/home">Makerspace JB</NuxtLink></li>
+                    <li><NuxtLink to="/pollinatorentrecamp/home">Pollinator Entrecamp</NuxtLink></li>
+                    <li><NuxtLink to="/kettlesyard/home">KettlesYard</NuxtLink></li>
                 </ul>
             </div>
             <div id="smes">
@@ -18,9 +18,9 @@
                     Small and Medium Business Entreprises
                 </h4>
                 <ul>
-                    <li><a href="/burger/index">Testo Burgers</a></li>
-                    <li><a href="/hirosushi">Hirosushi</a></li>
-                    <li><a href="/millinery/index">Luciano's Millinery</a></li>
+                    <li><NuxtLink to="/burger/burgerhome">Testo Burgers</NuxtLink></li>
+                    <li><NuxtLink to="/hirosushi">Hirosushi</NuxtLink></li>
+                    <li><NuxtLink to="/millinery/index">Luciano's Millinery</NuxtLink></li>
                 </ul>
             </div>
             <div id="portfolios">
@@ -28,8 +28,8 @@
                     Portfolios
                 </h4>
                 <ul>
-                    <li><a href="/pixionstudios">PixionStudios</a></li>
-                    <li><a href="/purityofnoise">PurityofNoise</a></li>
+                    <li><NuxtLink to="/pixionstudios">PixionStudios</NuxtLink></li>
+                    <li><NuxtLink to="/purityofnoise">PurityofNoise</NuxtLink></li>
                 </ul>
             </div>
             <div id="corporations">
@@ -37,12 +37,12 @@
                     National and Multinational Corporations
                 </h4>
                 <ul>
-                    <li><a href="/pathfinder">Pathfinder Consulting</a></li>
-                    <li><a href="/pierreherme">Pierre Herme</a></li>
-                    <li><a href="/sonoforte">Sonoforte</a></li>
-                    <li><a href="/greenhomes">Green Homes International</a></li>
-                    <li><a href="/element14clone">Element14Clone</a></li>
-                    <li><a href="/ventusairlines">Ventus Airlines</a></li>
+                    <li><NuxtLink to="/pathfinder">Pathfinder Consulting</NuxtLink></li>
+                    <li><NuxtLInk to="/pierreherme">Pierre Herme</NuxtLink></li>
+                    <li><NuxtLInk to="/sonoforte">Sonoforte</NuxtLink></li>
+                    <li><NuxtLInk to="/greenhomes">Green Homes International</NuxtLink></li>
+                    <li><NuxtLInk to="/element14clone">Element14Clone</NuxtLink></li>
+                    <li><NuxtLInk to="/ventusairlines">Ventus Airlines</NuxtLink></li>
                 </ul>
             </div>
             <div id="ecomm">
@@ -50,9 +50,9 @@
                     E-commerce Stores
                 </h4>
                 <ul>
-                    <li><a href="">SecondHandEverything</a></li>
-                    <li><a href="">NookLook</a></li>
-                    <li><a href="">HappyBunch</a></li>
+                    <li><NuxtLInk to="">SecondHandEverything</NuxtLink></li>
+                    <li><NuxtLInk to="">NookLook</NuxtLink></li>
+                    <li><NuxtLInk to="">HappyBunch</NuxtLink></li>
                 </ul>
             </div>
             <div id="booking">
@@ -60,7 +60,7 @@
                     Booking and Rating Platforms
                 </h4>
                 <ul>
-                    <li>BookingPro</li>
+                    <li><NuxtLInk to="">BookingPro</NuxtLink></li>
                 </ul>
             </div>
             <div id="trailers">
@@ -68,7 +68,7 @@
                     Movie and Book trailers
                 </h4>
                 <ul>
-                    <li><a href="">Suspiria</a></li>
+                    <li><NuxtLink to="">Suspiria</NuxtLink></li>
                 </ul>
             </div>
             <div id="gov">
@@ -76,10 +76,10 @@
                     Government Departments
                 </h4>
                 <ul>
-                    <li><a href="">Ministry of Health</a></li>
-                    <li><a href="">Department of Transport</a></li>
-                    <li><a href="">Tourism Asia</a></li>
-                    <li><a href="">Education Department</a></li>
+                    <li><NuxtLink to="">Ministry of Health</NuxtLink></li>
+                    <li><NuxtLink to="">Department of Transport</NuxtLink></li>
+                    <li><NuxtLink to="">Tourism Asia</NuxtLink></li>
+                    <li><NuxtLink to="">Education Department</NuxtLink></li>
                 </ul>
             </div>
             <div id="fun">
@@ -87,11 +87,11 @@
                     Fun and Curiosity
                 </h4>
                 <ul>
-                    <li><a href="">Random (Names,Websites,Art,Music,Books)</a></li>
-                    <li><a href="">Wineries in the World</a></li>
-                    <li><a href="">Coffee Producers</a></li>
-                    <li><a href="">Castles</a></li>
-                    <li><a href="">3D Tour of the House of Maurice Ravel</a></li>
+                    <li><NuxtLink to="">Random (Names,Websites,Art,Music,Books)</NuxtLink></li>
+                    <li><NuxtLink to="">Wineries in the World</NuxtLink></li>
+                    <li><NuxtLink to="">Coffee Producers</NuxtLink></li>
+                    <li><NuxtLink to="">Castles</NuxtLink></li>
+                    <li><NuxtLink to="">3D Tour of the House of Maurice Ravel</NuxtLink></li>
                 </ul>
             </div>
         </div>
@@ -101,8 +101,8 @@
                     Learn
                 </h4>
                 <ul>
-                    <li>WebDev Tutor</li>
-                    <li>Statistics Tutor</li>
+                    <li><NuxtLink to="">WebDev Tutor</NuxtLink></li>
+                    <li><NuxtLink to="">Statistics Tutor</NuxtLink></li>
                 </ul>
             </div>
             <div id="analyze">
@@ -110,9 +110,9 @@
                     Analyze
                 </h4>
                 <ul>
-                    <li>Easy BoE</li>
-                    <li>Rapid Investment Analyzer</li>
-                    <li>Sound Analyzer</li>
+                    <li><NuxtLink to="">Easy BoE</NuxtLink></li>
+                    <li><NuxtLink to="">Rapid Investment Analyzer</NuxtLink></li>
+                    <li><NuxtLink to="">Sound Analyzer</NuxtLink></li>
                 </ul>
             </div>
             <div id="shop">
@@ -120,7 +120,7 @@
                     Shop
                 </h4>
                 <ul>
-                    <li>Second Hand Everything</li>
+                    <li><NuxtLink to="">Second Hand Everything</NuxtLink></li>
                 </ul>
             </div>
             <div id="search">
@@ -128,8 +128,8 @@
                     Search
                 </h4>
                 <ul>
-                    <li>FindYourHealthcareProvider</li>
-                    <li>FindYourCarMechanic</li>
+                    <li><NuxtLink to="">FindYourHealthcareProvider</NuxtLink></li>
+                    <li><NuxtLink to="">FindYourCarMechanic</NuxtLink></li>
                 </ul>
             </div>
             <div id="care">
@@ -137,7 +137,7 @@
                     Care
                 </h4>
                 <ul>
-                    <li>CatApp</li>
+                    <li><NuxtLink to="">CatApp</NuxtLink></li>
                 </ul>
             </div>
             <div id="create">
@@ -145,8 +145,8 @@
                     Create
                 </h4>
                 <ul>
-                    <li>Write a Song</li>
-                    <li>Write a Book</li>
+                    <li><NuxtLink to="">Write a Song</NuxtLink></li>
+                    <li><NuxtLink to="">Write a Book</NuxtLink></li>
                 </ul>
             </div>
         </div>
@@ -162,7 +162,7 @@
             </div>
         </div>
         <div id="footer">
-            @ 2022 All Rights Reserved | <a href="">About</a> | <a href="">Terms Of Use</a> | <a href="">Privacy Policy</a>
+            @ 2022 All Rights Reserved | <NuxtLink to="">About</NuxtLink> | <NuxtLink to="">Terms Of Use</NuxtLink> | <NuxtLink to="">Privacy Policy</NuxtLink>
         </div>
     </div>
 </template>
