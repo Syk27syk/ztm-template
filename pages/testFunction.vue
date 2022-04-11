@@ -1,19 +1,22 @@
 <template>
     <div>
         <p> Add Me! </p>
-        <form action="" method="">
-            <label for="a"> a </label>
-                <input id="a" a="a">variable a</input>
-            <label for="b"> b </label>
-                <input id="b" password="b">variable b</input>
+        <form action="" method="" class="flex flex-col">
+            <label for="a"> Enter Variable a </label>
+                <input id="a" a="a"></input>
+            <label for="b"> Enter Variable b </label>
+                <input id="b" password="b"></input>
+            <button class="bg-black text-white rounded px-5 py-x border" @click="sum">Return Sum</button>
+            <p>c</p>
         </form>
     </div>
 </template>
 
-<!--test function -->
+<!--test function
 <script>
-function sum(a,b) {
-    c = a + b;
+const sum = function (a,b) {
+    sum c = a + b;
     return c;
-}
+};
 </script>
+-->
