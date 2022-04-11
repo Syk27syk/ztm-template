@@ -50,20 +50,20 @@
     </div>
 </template>
 
-<!--remove button-->
+<!--remove button
 <script>
 quantity = $store.state.order.quantity
 export default {
-    function removeItems(quantity) {
+    constant removeItems = function (quantity) {
         newQuantity = quantity - 1;
         return newQuantity;
     },
 };
 </script>
 
-<!--grandtotal-->
+<!--grandTotal
 <script>
 const sumTotal = function () {
-
 }
 </script>
+-->
