@@ -27,7 +27,7 @@
                             <td class="text-right">RM {{ order.price.toFixed(2) }}</td>
                             <td class="text-center">{{ order.quantity }}</td>
                             <td class="text-right">RM {{ (order.price*order.quantity).toFixed(2) }}</td>
-                            <td class="text-center"><button>✖️</button></td>
+                            <td class="text-center"><button @click="removeItem">✖️</button></td>
                     </tr>
                     <tr>
                         <td class="text-left text-3xl text-black font-black text-oswald uppercase">Grand Total</td>
