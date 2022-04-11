@@ -14,7 +14,7 @@
             <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
                 Gifts
             </h3>
-            <div id="products" class="grid grid-cols-3 gap-5 pb-32 my-10 mx-24">
+            <div id="products" class="grid grid-cols-3 gap-5 pb-32 pt-10 mx-24">
                 <MakerspaceProduct
                     image="/makerclass/galileo-thermometer.png"
                     name="Galileo Thermometer"
@@ -42,7 +42,7 @@
             <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
                 Gifts
             </h3>
-            <div id="products" class="grid grid-cols-3 gap-5 pb-32 my-10 mx-24">
+            <div id="products" class="grid grid-cols-3 gap-5 pb-32 pt-10 mx-24">
                 <MakerspaceProduct
                     image="/makerclass/galileo-thermometer.png"
                     name="Galileo Thermometer"
@@ -70,9 +70,8 @@
             <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
                 Gifts
             </h3>
-            <div id="products" class="grid grid-cols-3 gap-5 pb-32 my-10 mx-24">
-                <Product
-                />
+            <div id="products" class="grid grid-cols-3 gap-5 pb-32 pt-10 mx-24">
+                <p> product </p>
             </div>
         </div>
 <!--
