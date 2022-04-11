@@ -5,21 +5,21 @@
       "image":"/makerclass/bb8.png",
       "duration": "1 week",
       "description": "Build your own droid to bring home",
-      "link":"/makerspacejb/bb8buildabotCoursePage",
+      "link":"/makerspacejb/bb8buildabotCoursePage"
     },
     {
       "name": "Build an App",
       "image":"/makerclass/app.png",
       "duration": "1 week",
       "description": "build your own mobile app",
-      "link":"/makerspacejb/appCoursePage",
+      "link":"/makerspacejb/appCoursePage"
     },
     {
       "name": "Build a Satellite",
       "image":"/makerclass/cubesat.png",
       "duration":"3 weeks",
       "description": "build your own satellite",
-      "link":"/makerspacejb/cubesatCoursePage",
-    },
+      "link":"/makerspacejb/cubesatCoursePage"
+    }
   ]
 }

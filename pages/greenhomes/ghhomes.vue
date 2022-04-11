@@ -20,9 +20,9 @@
       <p> Log in </p>
         <form action="user_account.html" method="get">
           <label for="username"> Username </label>
-            <input id="username" username="username">username</input>
+            <input id="username" username="username">username
           <label for="password"> Password </label>
-            <input id="password" password="password">password</input>
+            <input id="password" password="password">password
         </form>
     </div>
     <div class="m-auto">
@@ -77,11 +77,11 @@
         <p> Sign up to our weekly newsletter! </p>
           <form action=”response_page.html” method=”get”>
             <label for=”name”> Name </label>
-              <input id=”name” name=”name” type=”text” value=”Studentztm”></input>
+              <input id=”name” name=”name” type=”text” value=”Studentztm”>
             <label for=”email”> Email </label>
-              <input id=”email” email=”email_address” type=”email” required placeholder=me@example.com></input>
+              <input id=”email” email=”email_address” type=”email” required placeholder=me@example.com>
             <label for=”phone”> Phone number </label>
-              <input id=”phone” phone=”phone_number” type=”tel” required>Phone</input>
+              <input id=”phone” phone=”phone_number” type=”tel” required>Phone
             <button type=”submit”> Sign up </button>
           </form>
       </div>

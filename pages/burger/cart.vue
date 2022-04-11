@@ -41,11 +41,13 @@
             <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 grid grid-cols-1 item-center">
                 <NuxtLink to="/burger/checkout">Proceed to Checkout</NuxtLink>
             </button>
+<!--
             <div>
                 <input> </input>
                 <input> </input>
                 <button @click="sum">Sum</button>
             </div>
+-->
         </div>
     </div>
 </template>
