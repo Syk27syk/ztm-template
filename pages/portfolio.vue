@@ -87,11 +87,11 @@
                     Fun and Curiosity
                 </h4>
                 <ul>
-                    <li>Random (Names,Websites,Art,Music,Books)</li>
-                    <li>Wineries in the World</li>
-                    <li>Coffee Producers</li>
-                    <li>Castles</li>
-                    <li>3D Tour of the House of Maurice Ravel</li>
+                    <li><a href="">Random (Names,Websites,Art,Music,Books)</a></li>
+                    <li><a href="">Wineries in the World</a></li>
+                    <li><a href="">Coffee Producers</a></li>
+                    <li><a href="">Castles</a></li>
+                    <li><a href="">3D Tour of the House of Maurice Ravel</a></li>
                 </ul>
             </div>
         </div>
