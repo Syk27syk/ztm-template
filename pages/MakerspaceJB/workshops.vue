@@ -4,47 +4,51 @@
             <div>
                 <MakerspaceNavBar />
             </div>
-            <div id="hero-banner" class="m-32">
-                <img src="/makerspacejb//makerspacejb-banner.png" alt="">
+            <div id="hero-banner" class="p-32 bg-[url('/makerclass/steampunk-bg.jpg')] bg-cover">
+                <h1 class="text-white text-6xl font-oswald uppercase text-center">
+                    workshops
+                </h1>
+                <img src="" alt="">
             </div>
         </div>
         <div id="construction">
           <MakerspaceCon />
         </div>
         <div id="featured-workshops">
-            <h3 class="text-3xl text-black text-oswald uppercase">
+            <h3 class="text-3xl text-black text-oswald uppercase bg-blue-300 py-3 text-center mx-auto">
                 Featured Workshops
             </h3>
-            <MakerspaceWorkshop
-                image="/makerclass/bb8.png"
-                name="Build a Bot"
-                description="Build a droid to bring home"
-                duration="1 week"
-                link="/makerspacejb/bb8buildabotCoursePage"
-            />
-            <MakerspaceWorkshop />
-            <MakerspaceWorkshop />
-            <div>
-                <img src="/makerclass/app" alt="">
-                <h4 class="text-2xl text-black text-oswald uppercase">Build an App</h4>
-                <p id="description">
-                    Build your own mobile application
-                    Course duration: 1 week
-                </p>
-                <button><NuxtLink to="/MakerspaceJB/appCoursePage">see course page</NuxtLink></button>
-                <button @click="bookItem">Book Now</button>
-            </div>
-            <div>
-                <img src="makerclass/cubesat" alt="">
-                <h4 class="text-2xl text-black text-oswald uppercase">Build a Satellite</h4>
-                <p id="description">
-                    Build your own satellite for $1,000
-                    Course duration: 3 weeks
-                </p>
-                <button><NuxtLink to="/MakerspaceJB/cubesatCoursePage">see course page</NuxtLink></button>
-                <button @click="bookItem">Book Now</button>
+            <div class="grid grid-cols-3 gap-5 my-10 mx-24">
+                <div>
+                    <MakerspaceWorkshop
+                        image="/makerclass/bb8.png"
+                        name="Build a Robot"
+                        description="Build your own droid to take home!"
+                        duration="1 week"
+                        link="/makerspacejb/bbbuildabotCoursePage"
+                    />
+                </div>
+                <div>
+                    <MakerspaceWorkshop
+                        image="/makerclass/app.png"
+                        name="Build an App"
+                        description="Build your own mobile application"
+                        duration="1 week"
+                        link="/makerspacejb/appCoursePage"
+                    />
+                </div>
+                <div>
+                    <MakerspaceWorkshop
+                        image="/makerclass/cubesat.png"
+                        name="Build a satellite"
+                        description="Build your own satellite!"
+                        duration="3 weeks"
+                        link="/makerspacejb/cubesatCoursePage"
+                    />
+                </div>
             </div>
         </div>
+<!--
         <div id="coding-workshops">
             <div>
                 <img src="" alt="">
@@ -165,6 +169,7 @@
                 <button>checkout</button>
             </div>
         </div>
+-->
         <div id="bottom">
             <MakerspaceBottom />
         </div>
