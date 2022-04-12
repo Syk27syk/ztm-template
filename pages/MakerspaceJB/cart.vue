@@ -6,7 +6,7 @@
             </div>
             <div id="hero-banner" class="px-32 py-36 bg-[url('/makerclass/robot-shopping.jpg')] bg-center bg-cover h-full">
                 <h1 class="text-white text-8xl font-oswald uppercase text-center">
-                    shop
+                    cart
                 </h1>
             </div>
         </div>
@@ -23,14 +23,14 @@
                 </thead>
                 <tbody>
                     <tr
-                        v-for="product in $store.state.orders"
+                        v-for="product in $store.state.products"
                         :key="product.name"
                         class="font-oswald uppercase text-2xl border-b"
                     >
                             <td class="py-10">{{ product.name }}</td>
                             <td class="text-right">RM {{ product.price }}</td>
-                            <td class="text-center">{{ order.quantity }}</td>
-                            <td class="text-right">RM {{ (order.price*order.quantity) }}</td>
+                            <td class="text-center">{{ product.quantity }}</td>
+                            <td class="text-right">RM {{ (product.price*product.quantity) }}</td>
                             <td class="text-center"><button @click="removeItem">✖️</button></td>
                     </tr>
                     <tr>
@@ -43,7 +43,7 @@
                 </tbody>
             </table>
             <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 grid grid-cols-1 item-center">
-                <NuxtLink to="/burger/checkout">Proceed to Checkout</NuxtLink>
+                <NuxtLink to="/makerspacejb/checkout">Proceed to Checkout</NuxtLink>
             </button>
         </div>
     </div>
