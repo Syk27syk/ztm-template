@@ -37,35 +37,31 @@
                         <td class="invisible">remove</td>
                     </tr>
                 </tbody>
+                <tfoot>
+                    <tr class="font-oswald font-bold text-2xl bg-gray-100 uppercase">
+                        <td class="py-10" colspan="3">Total</td>
+                        <td class="text-right">RM {{ total }}</td>
+                        <td>text</td>
+                    </tr>
+                </tfoot>
             </table>
             <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 grid grid-cols-1 item-center">
                 <NuxtLink to="/burger/checkout">Proceed to Checkout</NuxtLink>
             </button>
-<!--
-            <div>
-                <input> </input>
-                <input> </input>
-                <button @click="sum">Sum</button>
-            </div>
--->
         </div>
     </div>
 </template>
 
-<!--remove button
 <script>
-quantity = $store.state.order.quantity
 export default {
-    constant removeItems = function (quantity) {
-        newQuantity = quantity - 1;
-        return newQuantity;
+  computed: {
+    total() {
+      let total = 0;
+      this.$store.state.orders.forEach((order) => {
+        total = total + order.price * order.quantity;
+      });
+      return total;
     },
+  },
 };
 </script>
--->
-<!--grandTotal
-<script>
-const sumTotal = function () {
-}
-</script>
--->
