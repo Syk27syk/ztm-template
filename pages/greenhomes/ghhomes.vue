@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-screen bg-green-300 h-[100vh] align-middle text-white text-center">
+  <div class="flex h-screen bg-green-300 align-middle text-white text-center">
     <div class="m-auto">
       <p class="mt-5"><img src="https://tinyurl.com/359282x2" alt="greenhomeslogo" width="400" height="400" /></p>
     </div>
@@ -75,14 +75,14 @@
       </p>
       <div>
         <p> Sign up to our weekly newsletter! </p>
-          <form action=”response_page.html” method=”get”>
-            <label for=”name”> Name </label>
-              <input id=”name” name=”name” type=”text” value=”Studentztm”>
-            <label for=”email”> Email </label>
-              <input id=”email” email=”email_address” type=”email” required placeholder=me@example.com>
-            <label for=”phone”> Phone number </label>
-              <input id=”phone” phone=”phone_number” type=”tel” required>Phone
-            <button type=”submit”> Sign up </button>
+          <form action="response_page.html" method="get">
+            <label for="name"> Name </label>
+              <input id="name" name="name" type="text" value="Studentztm">
+            <label for="email"> Email </label>
+              <input id="email" email="email_address" type="email" required placeholder="me@example.com">
+            <label for="phone"> Phone number </label>
+              <input id="phone" phone="phone_number" type="tel" required>Phone
+            <button type="submit"> Sign up </button>
           </form>
       </div>
       <p><a href="survey.html">Click to take a survey</a></p>
