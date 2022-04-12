@@ -42,7 +42,7 @@
                     </tr>
                 </tbody>
             </table>
-            <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 grid grid-cols-1 item-center">
+            <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 grid grid-cols-1 ml-48 item-center">
                 <NuxtLink to="/makerspacejb/checkout">Proceed to Checkout</NuxtLink>
             </button>
         </div>

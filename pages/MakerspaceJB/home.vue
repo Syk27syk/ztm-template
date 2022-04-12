@@ -8,6 +8,9 @@
                 <img src="/makerspacejb//makerspacejb-banner.png" alt="">
             </div>
         </div>
+        <div>
+            <QuickStart />
+        </div>
         <div class="bg-blue-500 bg-opacity-700 text-white p-5 absolute right-0 top-0">
             <h3 class="text-xl">Quick Links</h3>
             <div class="flex flex-col">
