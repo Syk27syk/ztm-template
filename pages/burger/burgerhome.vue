@@ -38,52 +38,52 @@
       <div id="selling-points" class="bg-yellow-500 grid grid-cols-3 px-48 h-48 text-center place-items-center">
         <div>
           <HomeHeroicons
-            heroicon='<svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-16 w-16 mx-auto"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="1">
+            heroicon="<svg
+              xmlns='http://www.w3.org/2000/svg'
+              class='h-16 w-16 mx-auto'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke='currentColor'
+              stroke-width='1'>
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-              </svg>'
-            title='Original Recipes'
-            description='We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns.'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                d='M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z' />
+              </svg>"
+            title="Original Recipes"
+            description="We use our secret recipes with only the best ingredients to make our burgers. Starting from patties, sauces, and even buns."
           />
           <HomeHeroicons
-            heroicon='<svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16 mx-auto"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="1">
+            heroicon="<svg
+            xmlns='http://www.w3.org/2000/svg'
+            class='h-16 w-16 mx-auto'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke='currentColor'
+            stroke-width='1'>
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-            </svg>'
-            title='Quality Foods'
-            description='We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers.'
+              stroke-linecap='round'
+              stroke-linejoin='round'
+              d='M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z' />
+            </svg>"
+            title="Quality Foods"
+            description="We purchase our ingredients from the best suppliers daily, to ensure the freshest quality of our burgers."
           />
           <HomeHeroicons
-            heroicon='<svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-16 w-16 mx-auto"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="1">
+            heroicon="<svg
+            xmlns='http://www.w3.org/2000/svg'
+            class='h-16 w-16 mx-auto'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke='currentColor'
+            stroke-width='1'>
             <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>'
-            title='Fastest Delivery'
-            description='Burgers are best served while it/s hot. We deliver to your door with our speedy delivery partners from the nearest outlet.'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            d='M13 10V3L4 14h7v7l9-11h-7z' />
+            </svg>"
+            title="Fastest Delivery"
+            description="Burgers are best served while it/s hot. We deliver to your door with our speedy delivery partners from the nearest outlet."
           />
         </div>
       </div>
@@ -91,7 +91,7 @@
         <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium text-center pt-20 pb-3">
           Our Crazy Burgers
         </h2>
-        <p class="text-gray-500 font-light my-10 px-20 px-20">
+        <p class="text-gray-500 font-light my-10 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
         <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
