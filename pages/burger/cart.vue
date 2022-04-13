@@ -41,7 +41,7 @@
                     <tr class="font-oswald font-bold text-2xl bg-gray-100 uppercase">
                         <td class="py-10" colspan="3">Total</td>
                         <td class="text-right">RM {{ total }}</td>
-                        <td>text</td>
+                        <td class="invisible">text</td>
                     </tr>
                 </tfoot>
             </table>
@@ -65,7 +65,7 @@ export default {
   },
   methods: {
     removeItem(name) {
-      this.$store.commit("removeItem", name);
+      this.$store.commit('removeItem', name);
     }
   }
 };
