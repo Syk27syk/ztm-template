@@ -34,7 +34,7 @@
                 to="/burger/cart"
                 class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
               >
-                Cart
+                Cart ({{ $store.getters.totalItems }})
               </NuxtLink>
             </ul>
           </div>
