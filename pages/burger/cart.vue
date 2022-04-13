@@ -29,13 +29,6 @@
                             <td class="text-right">RM {{ (order.price*order.quantity).toFixed(2) }}</td>
                             <td class="text-center"><button @click="removeItem">✖️</button></td>
                     </tr>
-                    <tr>
-                        <td class="text-left text-3xl text-black font-black text-oswald uppercase">Grand Total</td>
-                        <td class="invisible">price</td>
-                        <td class="text-right text-3xl text-black font-black text-oswald uppercase">quantity</td>
-                        <td class="text-right text-3xl text-black font-black text-oswald uppercase">sum</td>
-                        <td class="invisible">remove</td>
-                    </tr>
                 </tbody>
                 <tfoot>
                     <tr class="font-oswald font-bold text-2xl bg-gray-100 uppercase">
@@ -45,7 +38,7 @@
                     </tr>
                 </tfoot>
             </table>
-            <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 grid grid-cols-1 item-center">
+            <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 mx-60 grid grid-cols-1 item-center">
                 <NuxtLink to="/burger/checkout">Proceed to Checkout</NuxtLink>
             </button>
         </div>
