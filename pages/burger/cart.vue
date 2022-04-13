@@ -63,5 +63,10 @@ export default {
       return total;
     },
   },
+  methods: {
+    removeItem(name) {
+      this.$store.commit("removeItem", name);
+    }
+  }
 };
 </script>

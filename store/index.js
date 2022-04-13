@@ -19,6 +19,12 @@ const mutations = {
       state.orders[index].quantity++;
     }
   },
+  removeItem(state, selectedItem) {
+    const index = state.orders.findIndex((item) => {
+      return item.name === selectedItem.name
+    });
+    state.orders.splice(index, 1);
+  }
 };
 
 const getters = {
