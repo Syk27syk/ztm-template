@@ -133,8 +133,8 @@
           </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-5 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
-        <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-2 grid grid-cols-2 relative">
+      <div id="promotions-1" class="grid grid-cols-12 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
+        <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-5 grid grid-cols-2 relative">
           <p class="invisible"> text </p>
           <div class="absolute bottom-2 right-2">
             <h4 class="pt-10 pr-16 text-2xl text-yellow-700 text-center uppercase">
@@ -145,7 +145,7 @@
             </button>
           </div>
         </div>
-        <div class="bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-3 relative">
+        <div class="bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-7 relative">
           <h4 class="text-right pt-10 pr-8 text-2xl text-yellow-700 uppercase">
             <strong>Crispy Chicken<br>Burger is Back!</strong>
           </h4>
