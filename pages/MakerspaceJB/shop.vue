@@ -1,5 +1,8 @@
 <template>
     <div class="relative">
+        <div class="absolute top-0 right-0">
+            <MakerspaceQuickLinks />
+        </div>
         <div id="head">
             <div>
                 <MakerspaceNavBar />
@@ -9,9 +12,6 @@
                     shop
                 </h1>
             </div>
-        </div>
-        <div>
-            <MakerspaceQuickLinks />
         </div>
         <div id="gifts" class="bg-black">
             <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
@@ -150,7 +150,7 @@ export default {
   mounted() {
     this.$axios.get('products.json').then(
       (response) => {
-        this.items = response.data.products;
+        this.products = response.data.products;
       });
   },
 };

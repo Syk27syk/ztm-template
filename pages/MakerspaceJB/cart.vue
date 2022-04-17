@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div class="relative">
+        <div class="absolute top-0 right-0">
+            <MakerspaceQuickLinks />
+        </div>
         <div id="head">
             <div>
                 <MakerspaceNavBar />
