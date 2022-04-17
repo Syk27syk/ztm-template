@@ -1,10 +1,14 @@
 <template>
     <div class="bg-white bg-opacity-20 rounded-full border border-gray-500 text-white p-5 absolute right-0 top-0 m-5">
-        <button type="button" class="text-xl font-extrabold font-roboto text-gray-500 py-2 flex flex-col">
+        <button
+            type="button"
+            class="text-xl font-extrabold font-roboto text-gray-500 py-2 text-center flex flex-col"
+            @click="isOpen = !isOpen"
+        >
             Quick<br>Links
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
+                class="h-6 w-6 mx-auto"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

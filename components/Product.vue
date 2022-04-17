@@ -8,7 +8,11 @@
             </p>
             <span class="text-blue-500 text-lg text-left py-2"><NuxtLink to="link"><i>See Product Description</i></NuxtLink></span>
             <span id="price" class="text-2xl font-oswald py-2">RM {{ price.toFixed(2) }}</span>
-            <button class="text-white font-bold font-lilita text-2xl bg-red-500 rounded px-8 py-3 border" @click="addCart">Add to Cart</button>
+            <button
+              class="text-white font-bold font-lilita text-2xl bg-red-500 rounded px-8 py-3 border transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              @click="addCart">
+              Add to Cart
+            </button>
         </div>
     </div>
 </template>
