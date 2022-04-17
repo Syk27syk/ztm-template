@@ -28,7 +28,7 @@
         <h1 class="text-6xl uppercase font-oswald pt-20 text-center">
           The burger tastes better when you eat it with family.
         </h1>
-        <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28 text-center">
+        <p class="font-roboto font-light text-gray-900 text-lg py-6 px-28 text-center">
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
         <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8 animate-pulse">
@@ -110,7 +110,7 @@
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
               <Items
-                image="crispy-chicken.jpg"
+                image="/crispy-chicken.jpg"
                 title="Crispy Chicken"
                 description="Chicken breast, chili sauce, tomatoes, pickles, coleslaw"
                 price="11.99"
@@ -118,7 +118,7 @@
             </div>
             <div>
               <Items
-                image="ultimate-bacon.jpg"
+                image="/ultimate-bacon.jpg"
                 title="Ultimate Bacon"
                 description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
                 price="14.99"
@@ -128,7 +128,7 @@
           <div class="grid grid-cols-2 gap-5 max-w-3xl">
             <div>
               <Items
-                image="baa-baa.jpg"
+                image="/baa-baa.jpg"
                 title="Baa-Baa Black Sheep"
                 description="American cheese, tomato relish, avocado, juicy lamb patty"
                 price="15.75"
@@ -136,7 +136,7 @@
             </div>
             <div>
               <Items
-                image="double-burger.jpg"
+                image="/double-burger.jpg"
                 title="Double Burger"
                 description="2 x beef patties, cheddar cheese, mustard, pickles, tomatoes"
                 price="15.35"
@@ -166,7 +166,7 @@
           </button>
         </div>
       </div>
-      <div id="promotions-2" class="grid grid-cols-3 gap-x-3">
+      <div id="promotions-2" class="grid grid-cols-3 gap-x-3 px-20">
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
           <NuxtLink to=""><img src="/offer-1.jpg" alt="" /></NuxtLink>
         </div>

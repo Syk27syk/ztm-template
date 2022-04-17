@@ -2,7 +2,7 @@
     <div>
         <div id="menu" class="grid grid-cols-4 py-5">
           <div id="menu-left">
-            <NuxtLink to="/burger/burgerhome"><img src="logo.png" class="w-[150px]" alt="" /></NuxtLink>
+            <NuxtLink to="/burger/burgerhome"><img src="/logo.png" class="w-[150px]" alt="" /></NuxtLink>
           </div>
           <div id="menu-right" class="col-start-2 col-end-4 justify-end">
             <ul class="flex flex-row flex-wrap space-x-10 text-lg font-oswald text-white uppercase pt-5 flex-auto min-w-lg">
