@@ -11,10 +11,10 @@
         <div>
             <MakerspaceQuickLinks />
         </div>
+<!--
         <div>
             <GrayModal />
         </div>
-<!--
         <div>
             <QuickStart />
         </div>
