@@ -4,7 +4,7 @@
             <div>
                 <MakerspaceNavBar />
             </div>
-            <div id="hero-banner" class="px-32 py-36 bg-[url('/makerclass/robot-shopping.jpg')] bg-center bg-cover h-full">
+            <div id="hero-banner" class="px-32 py-36 bg-[url('/makerspacejb/robot-shopping.jpg')] bg-center bg-cover h-full">
                 <h1 class="text-white text-8xl font-oswald uppercase text-center">
                     shop
                 </h1>
