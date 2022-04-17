@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="relative">
         <div id="head">
             <div>
                 <MakerspaceNavBar />
