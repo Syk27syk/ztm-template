@@ -12,6 +12,7 @@
             <span class="px-5 py-2"><NuxtLink to="/makerspacejb/faq">FAQ</NuxtLink></span>
             <span class="px-5 py-2"><NuxtLink to="/makerspacejb/connect">Connect</NuxtLink></span>
             <span class="px-5 py-2"><NuxtLink to="/makerspacejb/docs">Docs</NuxtLink></span>
+            <span class="px-5 py-2"><NuxtLink to="/makerspacejb/shop">SHOP</NuxtLink></span>
         </div>
     </div>
 </template>

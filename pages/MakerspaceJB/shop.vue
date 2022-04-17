@@ -72,7 +72,7 @@ export default {
     };
   },
   mounted() {
-    this.$axios.get('producs.json').then(
+    this.$axios.get('products.json').then(
       (response) => {
         this.items = response.data.products;
       });
