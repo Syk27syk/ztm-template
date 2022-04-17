@@ -35,7 +35,7 @@
           <NuxtLink to="/menutest">Explore Full Menu</NuxtLink>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 gap-5 grid grid-cols-3 px-20 py-5 text-center place-items-center">
+      <div id="sellingpoints" class="bg-yellow-500 gap-5 grid grid-cols-3 px-20 py-5 text-center">
         <div class="relative">
           <div class="p-5">
             <svg
