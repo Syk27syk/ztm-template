@@ -11,6 +11,13 @@
         <div id="construction">
           <MakerspaceCon />
         </div>
+        <div>
+            <span>Handbook</span>
+            <span>Plenum</span>
+            <span>GitHub</span>
+            <span>Main Site</span>
+            <span>Dark/Light Mode</span>
+        </div>
         <div id="bottom">
             <MakerspaceBottom />
         </div>
