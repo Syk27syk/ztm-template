@@ -27,7 +27,7 @@
             </div>
         </div>
         <div id="footer" class="bg-black text-white text-center py-10 px-32">
-            <p>Copyright (C) 2009-2022 Hackerspace.SG Pte Ltd and contributors.</p>
+            <p>Copyright (C) 2022 MakerspaceJB and contributors.</p>
         </div>
     </div>
 </template>
