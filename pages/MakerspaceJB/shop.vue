@@ -10,6 +10,9 @@
                 </h1>
             </div>
         </div>
+        <div>
+            <MakerspaceQuickLinks />
+        </div>
         <div id="gifts" class="bg-black">
             <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
                 Gifts
