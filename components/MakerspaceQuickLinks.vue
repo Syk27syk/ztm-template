@@ -16,7 +16,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
         </button>
-        <button v-if="isOpen" class="fixed top-0 right-0 bottom-0 left-0 h-full w-full text-transparent cursor-default tabindex=-1 z-0" @click="isOpen = false">text</button>
+        <button v-if="isOpen" class="fixed inset-0 h-full w-full text-transparent cursor-default tabindex=-1 z-0" @click="isOpen = false">text</button>
         <div v-if="isOpen" class="flex flex-col relative z-10">
             <button class="rounded-full bg-blue-100 border-2 border-black h-10 w-10 p-2 my-2 mx-1">
                 <NuxtLink to="/makerspacejb/cart"><img src="/makerspaceJB/cart.png" alt="account"></NuxtLink>
@@ -40,6 +40,22 @@ export default {
     return {
       isOpen: false
     }
+  },
+/*
+  created() {
+    const handleEscape = (e) => {
+      if (e.key === 'Esc' || e.key === 'Escape') {
+        this.isOpen = false
+      }
+    }
+    // eslint-disable-next-line nuxt/no-globals-in-created
+    document.addEventListener('keydown', handleEscape)
+
+    this.$once('hook:bfeforeDestroy', () => {
+      // eslint-disable-next-line nuxt/no-globals-in-created
+      document.removeEventListener('keydown', handleEscape)
+    })
   }
+*/
 }
 </script>
