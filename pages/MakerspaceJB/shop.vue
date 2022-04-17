@@ -53,14 +53,90 @@
                 />
             </div>
         </div>
-<!--
         <div id="Merchandise">
+            <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
+                Merchandise
+            </h3>
+            <div id="products" class="grid grid-cols-3 gap-5 pb-32 pt-10 mx-24">
+                <MakerspaceProduct
+                    image="/makerspacejb/galileo-thermometer.png"
+                    name="Galileo Thermometer"
+                    description="Made of a sealed glass cylinder containing a clear liquid and several glass vessels of varying density, the individual floats rise or fall due to density changes as the temperature changes."
+                    price="49.99"
+                    link="/makerspaceJB/galileoThermometer"
+                />
+                <MakerspaceProduct
+                    image="/makerspacejb/beetle-bot.png"
+                    name="Beetle Bot"
+                    description="Robotic beetle that moves in response to touch and sound. Comes in various colors, for ages 5 and up."
+                    price="14.85"
+                    link="/makerspaceJB/beetleBot"
+                />
+                 <MakerspaceProduct
+                    image="/makerspacejb/crookes-radiometer.png"
+                    name="Crookes Radiometer"
+                    description="Invented in 1873 by chemist Sir William Crookes, this device rotates faster when exposed to light, providing a quantitative measurement of electromagnetic radiation intensity."
+                    price="319.75"
+                    link="/makerspaceJB/crookesRadiometer"
+                />
+            </div>
         </div>
         <div id="makertools">
+            <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
+                Makertools
+            </h3>
+            <div id="products" class="grid grid-cols-3 gap-5 pb-32 pt-10 mx-24">
+                <MakerspaceProduct
+                    image="/makerspacejb/galileo-thermometer.png"
+                    name="Galileo Thermometer"
+                    description="Made of a sealed glass cylinder containing a clear liquid and several glass vessels of varying density, the individual floats rise or fall due to density changes as the temperature changes."
+                    price="49.99"
+                    link="/makerspaceJB/galileoThermometer"
+                />
+                <MakerspaceProduct
+                    image="/makerspacejb/beetle-bot.png"
+                    name="Beetle Bot"
+                    description="Robotic beetle that moves in response to touch and sound. Comes in various colors, for ages 5 and up."
+                    price="14.85"
+                    link="/makerspaceJB/beetleBot"
+                />
+                 <MakerspaceProduct
+                    image="/makerspacejb/crookes-radiometer.png"
+                    name="Crookes Radiometer"
+                    description="Invented in 1873 by chemist Sir William Crookes, this device rotates faster when exposed to light, providing a quantitative measurement of electromagnetic radiation intensity."
+                    price="319.75"
+                    link="/makerspaceJB/crookesRadiometer"
+                />
+            </div>
         </div>
         <div id="courses">
+            <h3 class="text-3xl text-white font-lilita font-black uppercase bg-blue-900 py-3 text-center mx-auto">
+                Courses
+            </h3>
+            <div id="products" class="grid grid-cols-3 gap-5 pb-32 pt-10 mx-24">
+                <MakerspaceProduct
+                    image="/makerspacejb/galileo-thermometer.png"
+                    name="Galileo Thermometer"
+                    description="Made of a sealed glass cylinder containing a clear liquid and several glass vessels of varying density, the individual floats rise or fall due to density changes as the temperature changes."
+                    price="49.99"
+                    link="/makerspaceJB/galileoThermometer"
+                />
+                <MakerspaceProduct
+                    image="/makerspacejb/beetle-bot.png"
+                    name="Beetle Bot"
+                    description="Robotic beetle that moves in response to touch and sound. Comes in various colors, for ages 5 and up."
+                    price="14.85"
+                    link="/makerspaceJB/beetleBot"
+                />
+                 <MakerspaceProduct
+                    image="/makerspacejb/crookes-radiometer.png"
+                    name="Crookes Radiometer"
+                    description="Invented in 1873 by chemist Sir William Crookes, this device rotates faster when exposed to light, providing a quantitative measurement of electromagnetic radiation intensity."
+                    price="319.75"
+                    link="/makerspaceJB/crookesRadiometer"
+                />
+            </div>
         </div>
--->
     </div>
 </template>
 
