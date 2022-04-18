@@ -36,6 +36,16 @@
                         <td class="text-right">RM {{ total }}</td>
                         <td class="invisible">text</td>
                     </tr>
+                    <tr>
+                      <td colspan="3">
+                        <input id="email" type="email" placeholder="Please enter your email" class="border border-gray-300 text-xl mt-5 py-3 px-2" />
+                      </td>
+                      <td colspan="2" class="text-right">
+                        <button class="font-oswald uppercase bg-red-500 text-white text-xl py-3 px-2 ml-5 mt-5" @click="submitOrder">
+                          Confirm My Order
+                        </button>
+                      </td>
+                    </tr>
                 </tfoot>
             </table>
             <button class="bg-red-500 text-white text-oswald text-2xl text-center px-8 py-3 rounded my-12 mx-60 grid grid-cols-1 item-center">
@@ -59,7 +69,13 @@ export default {
   methods: {
     removeItem(name) {
       this.$store.commit('removeItem', name);
+    },
+    submitOrder() {
+      this.$axios.post('/netlify/functions/email', {
+        email: document.getElementById('email').value,
+        orders: this.$store.state.orders,
+      });
     }
-  }
+  },
 };
 </script>

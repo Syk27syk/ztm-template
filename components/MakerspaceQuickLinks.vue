@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white bg-opacity-20 rounded-full border border-gray-500 text-white p-10 absolute right-0 top-0 m-5">
+    <div class="bg-white bg-opacity-20 rounded-full border border-gray-500 text-white p-10 absolute top-0 right-0 m-5">
         <button
             type="button"
             class="text-xl font-extrabold font-roboto text-gray-500 py-2 text-center flex flex-col relative z-10"

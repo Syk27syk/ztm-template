@@ -107,7 +107,7 @@
         <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium text-center pt-20 pb-3">
           Our Crazy Burgers
         </h2>
-        <p class="text-gray-500 font-light my-10 px-20">
+        <p class="text-gray-800 font-light text-lg w-4/5 mx-auto my-10 px-20">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
         <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
@@ -150,24 +150,27 @@
         </div>
       </div>
       <div id="promotions-1" class="grid grid-cols-12 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
-        <div class="bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-5 grid grid-cols-2 relative">
-          <p class="invisible"> text </p>
-          <div class="absolute bottom-2 right-2">
-            <h4 class="pt-10 pr-16 text-2xl text-yellow-700 text-center uppercase">
-              <strong>Get Your Free<br>Cheese Fries</strong>
+        <div class="flex flex-row bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-5">
+          <p class="col-span-2 inset-0 h-full w-full text-transparent">text</p>
+          <div class="col-span-3 m-5 w-2/3 mx-auto">
+            <h4 class="pt-10 mr-10 text-2xl text-yellow-700 text-center uppercase">
+              <strong>Get Your Free Cheese Fries</strong>
             </h4>
-            <button class="bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 animate-pulse">
+            <button class="bg-red-500 mr-10 py-3 px-8 fle text-white tracking-tight uppercase m-5 animate-pulse">
               Claim Now
             </button>
           </div>
         </div>
-        <div class="bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-7 relative">
-          <h4 class="text-right pt-10 pr-8 text-2xl text-yellow-700 uppercase">
-            <strong>Crispy Chicken<br>Burger is Back!</strong>
-          </h4>
-          <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 absolute bottom-2 right-2 animate-pulse">
-            Claim Now
-          </button>
+        <div class="flex flex-row bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-7 relative">
+          <p class="col-span-2 inset-0 h-full w-full text-transparent">text</p>
+          <div class="col-span-5 mx-auto">
+            <h4 class="text-center pt-10 pr-8 text-2xl text-yellow-700 uppercase">
+              <strong>Crispy Chicken Burger is Back!</strong>
+            </h4>
+            <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 animate-pulse">
+              Claim Now
+            </button>
+          </div>
         </div>
       </div>
       <div id="promotions-2" class="grid grid-cols-3 gap-x-3 px-20">
@@ -286,3 +289,32 @@
     </div>
   </div>
 </template>
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+    <!--
+      Background overlay, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0"
+        To: "opacity-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100"
+        To: "opacity-0"
+    -->
+    <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+
+    <!-- This element is to trick the browser into centering the modal contents. -->
+    <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+    <!--
+      Modal panel, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        To: "opacity-100 translate-y-0 sm:scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 translate-y-0 sm:scale-100"
+        To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+    -->
