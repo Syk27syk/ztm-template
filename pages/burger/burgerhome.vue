@@ -181,37 +181,39 @@
           <NuxtLink to=""><img src="/offer-3.jpg" alt="" /></NuxtLink>
         </div>
       </div>
-      <div id="bringing-people-together" class="flex flex-row gap-x-20 p-20 overflow-y-scroll justify-center">
-        <img src="/about.png" alt="" class="bg-cover max-h-96" />
-        <div class="m-2 max-w-3xl">
-          <h3 class="text-3xl text-gray-900 text-semibold uppercase pt-5 pb-10">
-             Nothing Brings People Together Like a Good Burger
+      <div id="bringing-people-together" class="flex flex-col bg-gray-100 p-20 overflow-y-scroll justify-center">
+        <div class="grid grid-cols-2 gap-x-5 pb-8">
+          <img src="/about.png" alt="" class="h-[500px] object-cover max-h-96 mx-auto" />
+          <h3 class="text-5xl text-gray-900 font-oswald uppercase pr-40 pt-10 leading-snug">
+              Nothing Brings People Together Like a Good Burger
           </h3>
-          <p class="text-sm text-light text-gray-700 pb-5">
+        </div>
+        <div class="w-2/3 text-left px-20">
+          <p class="text-lg text-gray-500 pb-5">
             That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community. We do our best to make sure that everyone's happy and having a good time.
           </p>
-          <p class="text-sm text-light text-gray-700 pt-5 pb-10">
+          <p class="text-lg text-gray-500 pt-5 pb-10">
             Burgers are what brought us together and what keeps us together. It's something that you can't put a price tag on. Most importantly, we are interested in people. It's not just about the food.
           </p>
         </div>
       </div>
-      <div id="download-app" class="grid grid-cols-5 bg-yellow-400 bg-cover m-30 relative">
-        <div class="col-span-3 text-red-900 max-w-2xl px-16 flex-auto flex-shrink-0">
-          <h4 class="uppercase text-2xl text-bold tracking-tight pl-20 pt-20">
-            Download mobile app and
+      <div id="download-app" class="grid grid-cols-5 bg-yellow-400 bg-cover">
+        <div class="col-span-3 text-amber-900 px-16 flex-auto flex-shrink-0">
+          <h4 class="uppercase font-oswald text-5xl pl-20 pt-20">
+            Download mobile app
           </h4>
-          <h3 class="uppercase text-4xl text-bold tracking-tight pl-20">
+          <h3 class="uppercase font-oswald text-6xl pl-20">
             Save up to 20%
           </h3>
-          <p class="text-sm text-light leading-relaxed tracking-tight py-5 pl-20">
+          <p class="text-lg leading-relaxed tracking-tight my-7 pl-20">
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
-          <div class="flex flex-row space-x-3 pb-36">
-            <button class="h-[50px]"><img src="/appstore.png"></button>
-            <button class="h-[50px]"><img src="/googleplay.png"></button>
+          <div class="flex flex-row space-x-3 px-20 pb-20">
+            <button class="h-[45px]"><img src="/appstore.png"></button>
+            <button class="h-[45px]"><img src="/googleplay.png"></button>
           </div>
         </div>
-        <img src="/eshop.png" alt="" class="col-span-2 -m-12 h-[500px] object-cover max-w-lg">
+        <img src="/eshop.png" alt="" class="col-span-2 -m-12 h-[510px] object-cover max-w-lg">
       </div>
       <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
         <div class="h-28 w-28 p-2">
@@ -239,10 +241,10 @@
       </div>
       -->
       <div id="menu-feature" class="pb-5 bg-gray-100">
-        <h3 class="uppercase text-5xl font-roboto text-red-500 font-medium text-center tracking-tighter pt-20">
+        <h3 class="uppercase text-5xl font-oswald font-semibold text-red-500 text-center pt-20 pb-2">
           <NuxtLink to="/menutest">Wide Selections</NuxtLink>
         </h3>
-        <p class="text-gray-800 text-opacity-80 font-light text-center text-sm tracking-snug pt-3 pb-2">
+        <p class="text-gray-000 text-opacity-80 font-light text-center text-lg tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
         <div class="flex flex-row flex-wrap gap-5 mx-32 my-16 justify-center">
