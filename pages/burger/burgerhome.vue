@@ -25,7 +25,7 @@
         </div>
       </div>
       <div id="section-1" class="text-center bg-[url('/about.jpg')] bg-center pb-60 bg-cover min-w-full min-h-96">
-        <h1 class="text-6xl uppercase font-oswald pt-20 text-center">
+        <h1 class="text-6xl uppercase font-oswald pt-20 text-center px-32">
           The burger tastes better when you eat it with family.
         </h1>
         <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28 text-center">
