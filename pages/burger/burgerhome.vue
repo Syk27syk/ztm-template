@@ -28,7 +28,7 @@
         <h1 class="text-6xl uppercase font-oswald pt-20 text-center px-32">
           The burger tastes better when you eat it with family.
         </h1>
-        <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28 text-center">
+        <p class="font-roboto font-light text-gray-900 text-lg py-6 px-28 text-center">
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
         <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8 animate-pulse">
@@ -182,13 +182,13 @@
         </div>
       </div>
       <div id="bringing-people-together" class="flex flex-col bg-gray-100 p-20 overflow-y-scroll justify-center">
-        <div class="grid grid-cols-2 gap-x-5 pb-8">
+        <div class="grid grid-cols-2 gap-x-16 pb-5 px-32">
           <img src="/about.png" alt="" class="h-[500px] object-cover max-h-96 mx-auto" />
-          <h3 class="text-5xl text-gray-900 font-oswald uppercase pr-40 pt-10 leading-snug">
+          <h3 class="text-5xl text-gray-900 font-oswald uppercase pt-10 leading-snug max-w-xl">
               Nothing Brings People Together Like a Good Burger
           </h3>
         </div>
-        <div class="w-2/3 text-left px-20">
+        <div class="w-4/5 mx-auto text-left pt-5 px-20">
           <p class="text-lg text-gray-500 pb-5">
             That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community. We do our best to make sure that everyone's happy and having a good time.
           </p>
@@ -209,11 +209,11 @@
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
           <div class="flex flex-row space-x-3 px-20 pb-20">
-            <button class="h-[45px]"><img src="/appstore.png"></button>
-            <button class="h-[45px]"><img src="/googleplay.png"></button>
+            <button class="h-[45px] max-h-10"><img src="/appstore.png"></button>
+            <button class="h-[45px] max-h-10"><img src="/googleplay.png"></button>
           </div>
         </div>
-        <img src="/eshop.png" alt="" class="col-span-2 -m-12 h-[510px] object-cover max-w-lg">
+        <img src="/eshop.png" alt="" class="col-span-2 -m-12 h-[500px] object-cover max-w-lg">
       </div>
       <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
         <div class="h-28 w-28 p-2">
