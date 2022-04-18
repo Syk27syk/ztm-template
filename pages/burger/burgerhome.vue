@@ -195,8 +195,8 @@
           </p>
         </div>
       </div>
-      <div id="download-app" class="grid grid-cols-2 bg-yellow-400 bg-cover m-30 relative">
-        <div class="text-red-900 max-w-2xl px-16 flex-auto flex-shrink-0">
+      <div id="download-app" class="grid grid-cols-5 bg-yellow-400 bg-cover m-30 relative">
+        <div class="col-span-3 text-red-900 max-w-2xl px-16 flex-auto flex-shrink-0">
           <h4 class="uppercase text-2xl text-bold tracking-tight pl-20 pt-20">
             Download mobile app and
           </h4>
@@ -207,11 +207,11 @@
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
           <div class="flex flex-row space-x-3 pb-36">
-            <button class="bg-[url('/appstore.png')] bg-cover h-9 ml-20 text-transparent"> Apple App Store </button>
-            <button class="bg-[url('/googleplay.png')] bg-cover h-9 text-transparent"> Google Play </button>
+            <button class="h-[50px]"><img src="/appstore.png"></button>
+            <button class="h-[50px]"><img src="/googleplay.png"></button>
           </div>
         </div>
-        <img src="/eshop.png" alt="" class="absolute -top-8 right-6 max-w-lg">
+        <img src="/eshop.png" alt="" class="col-span-2 -m-12 h-[500px] object-cover max-w-lg">
       </div>
       <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
         <div class="h-28 w-28 p-2">
