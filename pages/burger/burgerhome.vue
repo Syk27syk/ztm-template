@@ -149,22 +149,22 @@
           </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-12 h-48 max-h-72 gap-x-3 my-10 animate-bounce sticky bottom-0 bg-gray-100">
+      <div id="promotions-1" class="grid grid-cols-12 h-48 max-h-72 gap-x-3 my-10 sticky bottom-0 bg-gray-100">
         <div class="flex flex-row bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-5">
-          <p class="col-span-2 inset-0 h-full w-full text-transparent">text</p>
-          <div class="col-span-3 m-5 w-2/3 mx-auto">
-            <h4 class="pt-10 mr-10 text-2xl text-yellow-700 text-center uppercase">
+          <p colspan="2" class="inset-0 h-full w-full text-transparent">text</p>
+          <div colspan="3" class="m-5 w-2/3 mx-auto">
+            <h4 class="pt-[45px] mr-10 text-2xl text-yellow-700 text-center uppercase">
               <strong>Get Your Free Cheese Fries</strong>
             </h4>
-            <button class="bg-red-500 mr-10 py-3 px-8 fle text-white tracking-tight uppercase m-5 animate-pulse">
+            <button class="flex flex-none bg-red-500 mr-10 py-3 px-8 fle text-white tracking-tight uppercase m-5 animate-pulse">
               Claim Now
             </button>
           </div>
         </div>
-        <div class="flex flex-row bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-7 relative">
-          <p class="col-span-2 inset-0 h-full w-full text-transparent">text</p>
-          <div class="col-span-5 mx-auto">
-            <h4 class="text-center pt-10 pr-8 text-2xl text-yellow-700 uppercase">
+        <div class="flex flex-row-1 bg-[url('/burger-bg-1.jpg')] bg-cover bg-left col-span-7 relative">
+          <p colspan="2" class="inset-0 h-full w-full text-transparent">text</p>
+          <div colspan="5" class="mx-auto">
+            <h4 class="text-center pt-[60px] pr-8 text-2xl text-yellow-700 uppercase">
               <strong>Crispy Chicken Burger is Back!</strong>
             </h4>
             <button class="text-right bg-red-500 py-3 px-8 text-white tracking-tight uppercase m-5 animate-pulse">
