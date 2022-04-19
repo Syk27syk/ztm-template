@@ -49,6 +49,38 @@
                     <span class="h-8 w-8 bg-red text-white text-center"> 3 </span>
                     <h4> Payment </h4>
                     <button> v </button>
+                    <v-radio>
+                        Credit/Debit Card
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                    </v-radio>
+                    <v-radio>
+                        Cash on Delivery
+                        <img src="" alt="" />
+                        <h5>Pay by cash on delivery </h5>
+                        <p>Simply pay the driver, when he delivers the food to your doorstep.</p>
+                    </v-radio>
+                    <v-radio>
+                        FPX Online Banking
+                        <img src="" alt="" />
+                    </v-radio>
+                    <v-radio>
+                        Boost
+                        <img src="" alt="" />
+                    </v-radio>
+                </div>
+                <div id="voucher">
+                    <p><NuxtLink to="">Do you have a voucher?</NuxtLink></p>
+                </div>
+                <div id="placeorder">
+                    <p> By making this purchase you agree to our <NuxtLink to="">Terms and Conditions</NuxtLink></p>
+                    <button>Place order</button>
+                    <p>I agree and I demand that you execute the ordered service before the end of the revocation period. I am aware that after complete fulfillment of the service I lose my right of recission.</p>
                 </div>
             </div>
             <div id="order summary">
