@@ -113,8 +113,8 @@
             </div>
         </div>
         <footer>
-            (C) 2022 Testo Burgers
-            Damansara, Selangor, Malaysia
+            <p>(C) 2022 Testo Burgers</p>
+            <p>No. 1, Persiaran Bandar Utama,47800 Petaling Jaya, Selangor, Malaysia.</p>
             <p>
                 Press | Help Center | Terms and Conditions | Privacy Policy | Security | Partner With Us <br>
                 Download Testo's Mobile App | Careers | Testos International | Testos Malaysia <br>
