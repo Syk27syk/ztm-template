@@ -5,7 +5,7 @@
         <button @click="modalOff"> x </button>
         <div class="flex flex-row">
             <h3 class="text-3xl text-left">Burger with 2 Sides + Drink</h3>
-            <p>RM {{ price }}<p>
+            <p>RM {{ price }}</p>
         </div>
         <p class="text-lg text-left"> Combo comes with a selection of your favourite drink</p>
         </div>

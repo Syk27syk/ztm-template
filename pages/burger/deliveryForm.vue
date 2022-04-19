@@ -52,7 +52,32 @@
                 </div>
             </div>
             <div id="order summary">
-                
+                <h3>Your order from Nando's (AEON Tebrau City)</h3>
+                <table>
+                    <tr>
+                        <td>{{ quantity }}</td>
+                        <td>{{ items }}</td>
+                        <td>{{ price}}</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>{{ currency }} {{ price }}</td>
+                    </tr>
+                    <tr>
+                        <td>Delivery fee</td>
+                        <td>{{ currency }} {{ price }}</td>
+                    </tr>
+                    <tr>
+                        <td>Including Service Tax</td>
+                        <td>{{ currency }} {{ price }}</td>
+                    </tr>
+                    <tfoot>
+                        <td>Total (Incl. Service Tax)</td>
+                        <td>{{ currency }} {{ price }}</td>
+                    </tfoot>
+                </table>
             </div>
         </div>
         <footer>
