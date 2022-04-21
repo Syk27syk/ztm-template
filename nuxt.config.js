@@ -41,6 +41,18 @@ export default {
     '@nuxtjs/axios'
   ],
 
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyDeKWphR2OaUoEktammXacoISm9qWpmsQQ',
+      authDomain: 'burger-10892.firebaseapp.com',
+      projectId: 'burger-10892',
+      storageBucket: 'burger-10892.appspot.com',
+      messagingSenderId: '912795076903',
+      appId: '1:912795076903:web:a5b0c4cab19d7101ef4102',
+      measurementId: 'G-DL2XVJM5WY'
+    },
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
