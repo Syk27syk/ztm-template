@@ -68,6 +68,16 @@ export default {
     };
   },
 
+  head() {
+    return {
+      script: [
+        {
+          src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+        }
+      ]
+    }
+  },
+
   mounted() {
     this.$axios.get('/.netlify/functions/readorders').then((response) => {
       this.orders = response.data;
