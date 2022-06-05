@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-black">
+        <div class="bg-[url('/contacts-page.jpg')]">
             <BurgerNavBar />
         </div>
         <body>
