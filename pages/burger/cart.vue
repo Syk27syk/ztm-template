@@ -7,7 +7,7 @@
             </h1>
         </div>
         <div>
-           <table class="table-auto w-2/3 mt-20 mx-auto">
+           <table class="table-auto w-2/3 mt-20 mx-auto mb-24">
                 <thead class="text-3xl font-oswald text-black uppercase">
                     <tr>
                         <th class="text-left">Name</th>
@@ -33,7 +33,7 @@
                 <tfoot>
                     <tr class="font-oswald font-bold text-2xl bg-gray-100 border-t border-b uppercase">
                         <td class="py-10" colspan="3">Total</td>
-                        <td class="text-right">RM {{ total }}</td>
+                        <td class="text-right">RM {{ total.toFixed(2) }}</td>
                         <td class="text-transparent">text</td>
                     </tr>
                     <tr>
@@ -57,6 +57,7 @@
                 </tfoot>
             </table>
         </div>
+        <BurgerBottom />
     </div>
 </template>
 

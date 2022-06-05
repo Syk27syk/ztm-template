@@ -16,12 +16,13 @@
       -->
     </div>
   </div>
-  <div id="items" class="grid grid-cols-3 pt-10 px-20 gap-5 bg-gray-100 dark:bg-black">
+  <div id="items" class="grid grid-cols-3 pt-10 px-20 pb-24 gap-5 bg-gray-100 dark:bg-black">
    <MenuItem
    v-for="b in items"
    :key="b.name"
    :item="b" />
   </div>
+  <BurgerBottom />
  </div>
 </template>
 
